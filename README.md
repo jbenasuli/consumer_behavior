@@ -1,5 +1,18 @@
 # final_project
 
+## Presentation (30 points)
+
+Content
+
+- The team members have drafted their project, including the following:
+  - Selected topic
+  - Reason they selected the topic
+  - Description of the source of data
+  - Questions they hope to answer with the data
+
+- IMPORTANT
+  - The content does not yet need to be in the form of a presentation. It can be text in the README.md.
+
 ## GitHub Repository (10 points)
 
 Main Branch
