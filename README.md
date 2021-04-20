@@ -4,6 +4,9 @@
 
 Content
 
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+
+
 - The team members have drafted their project, including the following:
   - Selected topic
   - Reason they selected the topic
