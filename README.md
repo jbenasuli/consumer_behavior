@@ -38,7 +38,7 @@ Individual Branches
 
 ## Machine Learning Model (35 points)
 
-[Link to machine learning schema](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+[Link to machine learning schema](https://docs.google.com/document/d/1KiMA-ZG77uDJ1l1j62DKldMrqqjs5tJmXGeLCcyKyWo/edit)
 
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
