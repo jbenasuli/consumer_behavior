@@ -1,5 +1,7 @@
 # final_project
 
+[Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
+
 ## Presentation (30 points)
 
 Content
@@ -35,6 +37,8 @@ Individual Branches
   - Each team member has at least four commits for the duration of the first segment
 
 ## Machine Learning Model (35 points)
+
+[Link to machine learning schema](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
