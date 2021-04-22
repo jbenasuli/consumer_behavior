@@ -2,6 +2,8 @@
 
 [Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
 
+[Link to df csv file week 1](https://drive.google.com/drive/folders/18hYQ8VMuRqI5BbjhQWmEmcKjGr8gxxyc?usp=sharing)
+
 ## Presentation (30 points)
 
 Content
