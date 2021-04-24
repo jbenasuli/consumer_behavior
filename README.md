@@ -1,6 +1,6 @@
 # Amazon Consumer & Product Trend Analysis
 
-![Amazon](Photos/Amazon_Header2.png)
+![Amazon](Photos/Amazon_Header.png)
 
 
 ## Project Overview
