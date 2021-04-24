@@ -3,9 +3,14 @@
 ![Amazon](Photos/Amazon_Header.png)
 
 
-## Project Overview
+## Project Topic
 #### Predicting Consumer Behavior: Helping Amazon Identify Consumer and Product Trends
 Can we predict which products a consumer will most likely purchase together across product categories?
+
+- Data analysis is key for strategic and well-informed decision making. 
+- Big data allows e-commerce businesses to understand customers better through customer behavior analysis.
+- Helps target specific customer segments to upsell products, increase conversion rates, and grow sales.
+
 
 ## Resources
 - [Link to Project Tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108) 
