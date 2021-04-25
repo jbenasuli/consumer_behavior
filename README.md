@@ -1,8 +1,15 @@
 # final_project
 
+[Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
+
+[Link to df csv file week 1](https://drive.google.com/drive/folders/18hYQ8VMuRqI5BbjhQWmEmcKjGr8gxxyc?usp=sharing)
+
 ## Presentation (30 points)
 
 Content
+
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+
 
 - The team members have drafted their project, including the following:
   - Selected topic
@@ -32,6 +39,8 @@ Individual Branches
   - Each team member has at least four commits for the duration of the first segment
 
 ## Machine Learning Model (35 points)
+
+[Link to machine learning schema](https://docs.google.com/document/d/1KiMA-ZG77uDJ1l1j62DKldMrqqjs5tJmXGeLCcyKyWo/edit)
 
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
