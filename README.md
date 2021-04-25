@@ -76,7 +76,7 @@ Note: indvidual branches will soon be deleted in favor of role/deliverable align
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
 - Takes in data from the provisional database :white_check_mark:
-![ml-screenshot-1](resources/md-imgs/take-in-data.png)
+![ml-screenshot-1](resources/md-imgs/take-in-data-75.png)
 
 - Outputs label for input data :white_check_mark:
 ![ml-screenshot-2](resources/md-imgs/apriori-table.png)
