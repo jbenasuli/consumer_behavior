@@ -75,20 +75,20 @@ Note: indvidual branches will soon be deleted in favor of role/deliverable align
 
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
-- Takes in data from the provisional database
+- Takes in data from the provisional database :white_check_mark:
 [ml-screenshot-1] add-url-here
 
-- Outputs label for input data
+- Outputs label for input data :white_check_mark:
 ![ml-screenshot-2](resources/md-imgs/apriori-table.png)
 
 ## Database Integration (25 points)
 
 Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
 
-- Sample data that mimics the expected final database structure or schema
+- Sample data that mimics the expected final database structure or schema :white_check_mark:
 ![db-screenshot-1](resources/md-imgs/data-summary.png)
 
-- Draft machine learning model is connected to the provisional database
+- Draft machine learning model is connected to the provisional database :white_check_mark:
 ![db-screenshot-2](resources/md-imgs/dtypes-screenshot.png)
 
 ## Dashboard (0 points)
