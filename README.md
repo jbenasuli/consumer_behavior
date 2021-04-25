@@ -10,33 +10,64 @@ Content
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
+The team members have drafted their project, including the following:
 
-- The team members have drafted their project, including the following:
-  - Selected topic
-  - Reason they selected the topic
-  - Description of the source of data
-  - Questions they hope to answer with the data
+- Selected topic
+  - Help Amazon identify products bought together to increase upsell and revenues by analyzing Amazon Marketplace data for relationships between Customer IDs and Product IDs.
 
-- IMPORTANT
+- Reason they selected the topic
+  - Data analysis is key for strategic and well-informed decision making
+  - Big data allows e-commerce businesses to understand customers better through customer behavior analysis
+  - Helps target specific customers segments to upsell products, increase conversion rates and grow sales
+
+- Description of the source of data
+  - Amazon.com reviews data publically available from Amazon S3.
+
+- Questions they hope to answer with the data
+  - Can we predict which products a consumer will most likely purchase together across product categories?
+
+- Note:
   - The content does not yet need to be in the form of a presentation. It can be text in the README.md.
 
 ## GitHub Repository (10 points)
 
-Main Branch
+### Main Branch
 
-- The main branch should include:
-  - README.md
+The main branch should include:
 
-README.md
+- README.md :white_check_mark:
 
-- The README.md should include:
-  - Description of the communication protocols
+### README.md
 
-Individual Branches
+The README.md should include:
 
-- Requirements for the individual branches follow:
-  - At least one branch for each team member
-  - Each team member has at least four commits for the duration of the first segment
+- Description of the communication protocols
+  - Team members communicate primarly via slack
+  - Questions and comments are also relayed by leveraging the Google Apps' comments tool
+  - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
+  - All project files are available to team members via this Github repo
+
+### Individual Branches
+
+Requirements for the individual branches follow:
+
+- At least one branch for each team member :white_check_mark:
+
+- Each team member has at least four commits for the duration of the first segment :white_check_mark:
+
+List of all branches:
+
+- main
+- james-branch
+- alexa-branch
+- livia-branch
+- anthony-branch
+- markdowns
+- resources-branch
+- database
+- ml-model
+
+Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches.
 
 ## Machine Learning Model (35 points)
 
@@ -45,14 +76,20 @@ Individual Branches
 Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
 
 - Takes in data from the provisional database
+[ml-screenshot-1] add-url-here
+
 - Outputs label for input data
+[ml-screenshot-2] add-url-here
 
 ## Database Integration (25 points)
 
 Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
 
 - Sample data that mimics the expected final database structure or schema
+[db-screenshot-1] add-url-here
+
 - Draft machine learning model is connected to the provisional database
+[db-screenshot-2] add-url-here
 
 ## Dashboard (0 points)
 
