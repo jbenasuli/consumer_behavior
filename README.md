@@ -42,7 +42,7 @@ The main branch should include:
 The README.md should include:
 
 - Description of the communication protocols :white_check_mark:
-  - Team members communicate primarly via slack
+  - Team members communicate primarily via slack
   - Questions and comments are also relayed by leveraging the Google Apps' comments tool
   - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
   - All project files are available to team members via this Github repo
