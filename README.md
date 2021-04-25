@@ -79,17 +79,17 @@ Team members will be expected to present a provisional machine learning model th
 [ml-screenshot-1] add-url-here
 
 - Outputs label for input data
-[ml-screenshot-2] add-url-here
+[ml-screenshot-2](resources/md-imgs/apriori-table.png)
 
 ## Database Integration (25 points)
 
 Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
 
 - Sample data that mimics the expected final database structure or schema
-[db-screenshot-1] add-url-here
+[db-screenshot-1](resources/md-imgs/data-summary.png)
 
 - Draft machine learning model is connected to the provisional database
-[db-screenshot-2] add-url-here
+[db-screenshot-2](resources/md-imgs/dtypes-screenshot.png)
 
 ## Dashboard (0 points)
 
