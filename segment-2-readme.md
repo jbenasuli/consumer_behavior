@@ -30,6 +30,9 @@ The team members have drafted their project, including the following:
   - ***Add Question #3***
   - ***Add Question #4***
   - ***Add Question #5***
+  - <mark>Is html highlighting easier to see in github</mark>
+  - [ ] ***are blank checkboxes useful when emphasized***
+  - [ ] <mark>Is html highlighting easier to see in github</mark>
 
 - Description of the data exploration phase of the project:
   - ***Add Description***
