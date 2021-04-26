@@ -79,7 +79,7 @@ Team members will be expected to present a provisional machine learning model th
 ![ml-screenshot-1](resources/md-imgs/take-in-50.png)
 
 - Outputs label for input data :white_check_mark:
-![ml-screenshot-2](resources/md-imgs/apriori-table.png)
+![ml-screenshot-3](resources/md-imgs/apriori-output-unsorted.png)
 
 ## Database Integration (25 points)
 
