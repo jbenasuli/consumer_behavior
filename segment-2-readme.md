@@ -27,7 +27,7 @@ The team members have drafted their project, including the following:
 - Questions they hope to answer with the data
   - Primary Question: Can we predict which products a consumer will most likely purchase together across product categories?
   - **Add Question #2**
-  - ***Add Question #3**
+  - **Add Question #3**
   - **Add Question #4**
   - *Add Question #5*
 
@@ -54,7 +54,7 @@ The main branch should include:
 
 - **All code necessary to perform exploratory analysis**
   - New item, but I think this technically already satisfied.
-- **Some code necessary to complete the machine learning portion of the project**
+- *Some code necessary to complete the machine learning portion of the project*
   - New item, but I think this technically already satisfied.
 
 ### README.md
