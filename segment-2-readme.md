@@ -11,7 +11,7 @@ Content
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
 The team members have drafted their project, including the following:
-*New Items for Questions + Data Exploration and Analysis*
+***New Items for Questions + Data Exploration and Analysis***
 
 - Selected topic :white_check_mark:
   - Help Amazon identify products bought together to increase upsell and revenues by analyzing Amazon Marketplace data for relationships between Customer IDs and Product IDs.
@@ -26,40 +26,40 @@ The team members have drafted their project, including the following:
 
 - Questions they hope to answer with the data
   - Primary Question: Can we predict which products a consumer will most likely purchase together across product categories?
-  - *Add Question #2*
-  - *Add Question #3*
-  - *Add Question #4*
-  - *Add Question #5*
+  - ***Add Question #2***
+  - ***Add Question #3***
+  - ***Add Question #4***
+  - ***Add Question #5***
 
 - Description of the data exploration phase of the project:
-  - *Add Description*
+  - ***Add Description***
 
 - Description of the analysis phase of the project:
-  - *Add Description*
+  - ***Add Description***
 
 - Notes:
-  - *Presentation must now be drafted in Google Slides*
+  - ***Presentation must now be drafted in Google Slides***
 
 ## GitHub Repository (10 points)
 
 ### Main Branch
 
-New top requirement:
+IMPORTANT: ***All code in the main branch is production-ready.***
 
-- *All code in the main branch is production-ready.*
 - New requirement, but I think we've mostly got this down.
 
 The main branch should include:
 
 - README.md :white_check_mark:
-- *All code necessary to perform exploratory analysis*
+
+- ***All code necessary to perform exploratory analysis***
   - New item, but I think this technically already satisfied.
-- *Some code necessary to complete the machine learning portion of the project*
+- ***Some code necessary to complete the machine learning portion of the project***
   - New item, but I think this technically already satisfied.
 
 ### README.md
 
-The README.md *must* (used to be should) include:
+The README.md ***must*** (used to be should) include:
 
 - Description of the communication protocols :white_check_mark:
   - Team members communicate primarily via slack
@@ -67,7 +67,7 @@ The README.md *must* (used to be should) include:
   - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
   - All project files are available to team members via this Github repo
 
-- *Outline of the project (this may include images, but should be easy to follow and digest)*
+- ***Outline of the project (this may include images, but should be easy to follow and digest)***
   - this is another new requirement, which I think we might already satisfying.
   - 2 Questions for Derek/Carlos:
     - Can our README serve as the outline?
@@ -80,12 +80,12 @@ Note: The descriptions and explanations required in all other project deliverabl
 Requirements for the individual branches follow:
 
 - At least one branch for each team member :white_check_mark:
-  - *Double check we are free to delete member named branches.*
+  - ***Double check we are free to delete member named branches.***
 
 - Each team member has at least four commits for the duration of the second segment (eight total commits per person)
-  - *Need to ask Derek/Carlos if these commits must be "contributing commits" or if branch commits also count*
+  - ***Need to ask Derek/Carlos if these commits must be "contributing commits" or if branch commits also count***
 
-List of all branches: *will update after class/when we have feedback on some of the above*
+List of all branches: ***will update after class/when we have feedback on some of the above***
 
 - main
 - james-branch
@@ -101,7 +101,7 @@ Note: indvidual branches will soon be deleted in favor of role/deliverable align
 
 ## Machine Learning Model (35 points)
 
-IMPORTANT: *THIS SECTION IS ALL NEW*
+IMPORTANT: ***THIS SECTION IS ALL NEW***
 
 Team members submit the code for their machine learning model, as well as the following:
 
@@ -115,7 +115,7 @@ Team members submit the code for their machine learning model, as well as the fo
 
 ## Database Integration (25 points)
 
-IMPORTANT: *THIS SECTION IS ALL NEW*
+IMPORTANT: ***THIS SECTION IS ALL NEW***
 
 Team members present a fully integrated database:
 
@@ -133,11 +133,11 @@ Team members present a fully integrated database:
 
 General note: If you use a SQL database, you must provide your ERD with relationships.
 
-Team note: *We will have to update the technologies-used.md accordingly*
+Team note: ***We will have to update the technologies-used.md accordingly***
 
 ## Dashboard (0 points)
 
-IMPORTANT: *THIS SECTION IS ALL NEW*
+IMPORTANT: ***THIS SECTION IS ALL NEW***
 
 A blueprint for the dashboard is created and includes all of the following:
 
@@ -150,4 +150,4 @@ A blueprint for the dashboard is created and includes all of the following:
 - Description of interactive element(s):
   - insert screenshot and link to technologies-used.md when complete
 
-Team note: *We will have to update the technologies-used.md accordingly*
+Team note: ***We will have to update the technologies-used.md accordingly***
