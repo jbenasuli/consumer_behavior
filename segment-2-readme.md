@@ -33,7 +33,10 @@ The team members have drafted their project, including the following:
   - <mark>Is html highlighting easier to see in github</mark>
   - [ ] ***are blank checkboxes useful when emphasized***
   - [ ] <mark>Is html highlighting easier to see in github</mark>
-
+<mark>
+- Can i wrap a whole list in mark?
+  - ***We're about to find out***
+</mark>
 - Description of the data exploration phase of the project:
   - ***Add Description***
 
