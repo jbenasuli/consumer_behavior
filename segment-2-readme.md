@@ -26,19 +26,19 @@ The team members have drafted their project, including the following:
 
 - Questions they hope to answer with the data
   - Primary Question: Can we predict which products a consumer will most likely purchase together across product categories?
-  - ***Add Question #2***
-  - ***Add Question #3***
-  - ***Add Question #4***
-  - ***Add Question #5***
+  - [ ] ***Add Question #2***
+  - [ ] ***Add Question #3***
+  - [ ] ***Add Question #4***
+  - [ ] ***Add Question #5***
 
-- Description of the data exploration phase of the project:
+- [ ] Description of the data exploration phase of the project:
   - ***Add Description***
 
-- Description of the analysis phase of the project:
+- [ ] Description of the analysis phase of the project:
   - ***Add Description***
 
 - Notes:
-  - ***Presentation must now be drafted in Google Slides***
+  - [ ] ***Presentation must now be drafted in Google Slides***
 
 ## GitHub Repository (10 points)
 
@@ -46,15 +46,15 @@ The team members have drafted their project, including the following:
 
 IMPORTANT: ***All code in the main branch is production-ready.***
 
-- New requirement, but I think we've mostly got this down.
+- [ ] New requirement, but I think we've mostly got this down.
 
 The main branch should include:
 
 - README.md :white_check_mark:
 
-- ***All code necessary to perform exploratory analysis***
+- [ ] ***All code necessary to perform exploratory analysis***
   - New item, but I think this technically already satisfied.
-- ***Some code necessary to complete the machine learning portion of the project***
+- [ ] ***Some code necessary to complete the machine learning portion of the project***
   - New item, but I think this technically already satisfied.
 
 ### README.md
@@ -67,7 +67,7 @@ The README.md ***must*** (used to be should) include:
   - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
   - All project files are available to team members via this Github repo
 
-- ***Outline of the project (this may include images, but should be easy to follow and digest)***
+- [ ] ***Outline of the project (this may include images, but should be easy to follow and digest)***
   - this is another new requirement, which I think we might already satisfying.
   - 2 Questions for Derek/Carlos:
     - Can our README serve as the outline?
@@ -79,11 +79,11 @@ Note: The descriptions and explanations required in all other project deliverabl
 
 Requirements for the individual branches follow:
 
-- At least one branch for each team member :white_check_mark:
-  - ***Double check we are free to delete member named branches.***
+- [ ] At least one branch for each team member :white_check_mark:
+  - [ ] ***Double check we are free to delete member named branches.***
 
-- Each team member has at least four commits for the duration of the second segment (eight total commits per person)
-  - ***Need to ask Derek/Carlos if these commits must be "contributing commits" or if branch commits also count***
+- [ ] Each team member has at least four commits for the duration of the second segment (eight total commits per person)
+  - [ ] ***Need to ask Derek/Carlos if these commits must be "contributing commits" or if branch commits also count***
 
 List of all branches: ***will update after class/when we have feedback on some of the above***
 
@@ -105,13 +105,13 @@ IMPORTANT: ***THIS SECTION IS ALL NEW***
 
 Team members submit the code for their machine learning model, as well as the following:
 
-- Description of preliminary data preprocessing:
+- [ ] Description of preliminary data preprocessing:
 
-- Description of preliminary feature engineering and preliminary feature selection, including their decision- making process:
+- [ ] Description of preliminary feature engineering and preliminary feature selection, including their decision- making process:
 
-- Description of how data was split into training and testing sets:
+- [ ] Description of how data was split into training and testing sets:
 
-- Explanation of model choice, including limitations and benefits:
+- [ ] Explanation of model choice, including limitations and benefits:
 
 ## Database Integration (25 points)
 
@@ -119,17 +119,17 @@ IMPORTANT: ***THIS SECTION IS ALL NEW***
 
 Team members present a fully integrated database:
 
-- Database stores static data for use during the project
-  - insert screenshot(s) when complete
+- [ ] Database stores static data for use during the project
+  - [ ] insert screenshot(s) when complete
 
-- Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
-  - insert screenshot(s) when complete
+- [ ] Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+  - [ ] insert screenshot(s) when complete
 
-- Includes at least one join using the database language (not including any joins in Pandas)
-  - insert screenshot(s) when complete
+- [ ] Includes at least one join using the database language (not including any joins in Pandas)
+  - [ ] insert screenshot(s) when complete
 
-- Includes at least one connection string (using SQLAlchemy or PyMongo)
-  - insert screenshot(s) when complete
+- [ ] Includes at least one connection string (using SQLAlchemy or PyMongo)
+  - [ ] insert screenshot(s) when complete
 
 General note: If you use a SQL database, you must provide your ERD with relationships.
 
@@ -141,13 +141,13 @@ IMPORTANT: ***THIS SECTION IS ALL NEW***
 
 A blueprint for the dashboard is created and includes all of the following:
 
-- Storyboard on Google Slide(s)
-  - insert screenshot and Slides link when complete
+- [ ] Storyboard on Google Slide(s)
+  - [ ] insert screenshot and Slides link when complete
 
-- Description of the tool(s) that will be used to create final dashboard:
-  - insert screenshot and link to technologies-used.md when complete
+- [ ] Description of the tool(s) that will be used to create final dashboard:
+  - [ ] insert screenshot and link to technologies-used.md when complete
 
-- Description of interactive element(s):
-  - insert screenshot and link to technologies-used.md when complete
+- [ ] Description of interactive element(s):
+  - [ ] insert screenshot and link to technologies-used.md when complete
 
 Team note: ***We will have to update the technologies-used.md accordingly***
