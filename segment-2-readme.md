@@ -27,7 +27,7 @@ The team members have drafted their project, including the following:
 - Questions they hope to answer with the data
   - Primary Question: Can we predict which products a consumer will most likely purchase together across product categories?
   - **Add Question #2**
-  - **Add Question #3**
+  - ***Add Question #3***
   - **Add Question #4**
   - *Add Question #5*
 
