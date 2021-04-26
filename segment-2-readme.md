@@ -44,7 +44,7 @@ The team members have drafted their project, including the following:
 
 ### Main Branch
 
-IMPORTANT: **All code in the main branch is production-ready.**
+IMPORTANT: ***All code in the main branch is production-ready.***
 
 - New requirement, but I think we've mostly got this down.
 
