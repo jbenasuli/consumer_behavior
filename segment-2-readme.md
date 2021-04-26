@@ -11,7 +11,7 @@ Content
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
 The team members have drafted their project, including the following:
-[ ] ***New Items for Questions + Data Exploration and Analysis***
+***New Items for Questions + Data Exploration and Analysis***
 
 - Selected topic :white_check_mark:
   - Help Amazon identify products bought together to increase upsell and revenues by analyzing Amazon Marketplace data for relationships between Customer IDs and Product IDs.
@@ -31,11 +31,11 @@ The team members have drafted their project, including the following:
   - [ ] ***Add Question #4***
   - [ ] ***Add Question #5***
 
-- Description of the data exploration phase of the project:
-  - [ ] ***Add Description***
+- [ ] Description of the data exploration phase of the project:
+  - ***Add Description***
 
-- Description of the analysis phase of the project:
-  - [ ] ***Add Description***
+- [ ] Description of the analysis phase of the project:
+  - ***Add Description***
 
 - Notes:
   - [ ] ***Presentation must now be drafted in Google Slides***
