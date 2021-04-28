@@ -29,11 +29,15 @@ Based on our research question one approach could possibly be to use sentiment a
 
 Some dependencies/packages or tools that may be able to assist us with this question and possibly simplify the analysis are:
 
-- Natural Language ToolKit (NLTK): The NLTK module is a massive tool kit, aimed at helping with the entire Natural Language Processing (NLP) methodology.      
+- Natural Language ToolKit (NLTK): The NLTK module is a massive tool kit, aimed at helping with the entire Natural Language Processing (NLP) methodology.
+
+![NLTK](final_project/resources/md-imgs/NLTK-Screenshot.png)     
 
 
 
 - TextBlob: TextBlob module is a Python library and offers a simple API to access its methods and perform basic NLP tasks. It is built on the top of NLTK module. TextBlob uses polarity and a subjectivity instead of the different scores featured in the NTLK module, but it's basically the same idea.
+
+![TextBlob](final_project/resources/md-imgs/TextBlob-Screenshot.png)
 
 
 
