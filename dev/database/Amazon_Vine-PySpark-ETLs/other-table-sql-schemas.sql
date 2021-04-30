@@ -14,7 +14,7 @@ CREATE TABLE "sample_df" (
     "Home" int,
     "Office_Products" int,
     "Personal_Care_Appliances" int,
-    CONSTRAINT "customer_id" PRIMARY KEY (
-        "sample_df"
+    CONSTRAINT "pk_sample_df" PRIMARY KEY (
+        "customer_id"
      )
 );
