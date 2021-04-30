@@ -1,0 +1,6 @@
+placeholder to establish folder
+
+folder is to hold notebooks which:
+1) load Amazon Vine data from S3,
+2) perform the first round of ETL, and
+3) write data to AWS PostGres RDS
