@@ -15,6 +15,6 @@ CREATE TABLE "sample_df" (
     "Office_Products" int,
     "Personal_Care_Appliances" int,
     CONSTRAINT "customer_id" PRIMARY KEY (
-        "review_id"
+        "sample_df"
      )
 );
