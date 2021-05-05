@@ -38,11 +38,11 @@ CREATE TABLE "airmattress_cleaned" (
      )
 );
 
--- Sentiment Analysis Table - drop existing!
+-- Sentiment Analysis Table - drop existing airmattress_sentiment!
 -- Reviews for Airmattress (product_id = B000M0MJU2)
 -- To be filtered for Top_10 and Bottom_10
 
-CREATE TABLE "airmattress_sentiment" (
+CREATE TABLE "airmattress_top_voted_reviews" (
     "customer_id" int,
     "review_id" varchar,
     "star_rating" smallint,
@@ -50,7 +50,20 @@ CREATE TABLE "airmattress_sentiment" (
     "total_votes" int,
     "review_headline" text,
     "review_body" text,
-    CONSTRAINT "pk_airmattress_cleaned" PRIMARY KEY (
+    CONSTRAINT "pk_airmattress_top_voted_reviews" PRIMARY KEY (
         "review_id"
      )
 );
+
+-- CREATE TABLE "airmattress_bottom_ten" (
+--     "customer_id" int,
+--     "review_id" varchar,
+--     "star_rating" smallint,
+--     "helpful_votes" int,
+--     "total_votes" int,
+--     "review_headline" text,
+--     "review_body" text,
+--     CONSTRAINT "pk_airmattress_bottom_ten" PRIMARY KEY (
+--         "review_id"
+--      )
+-- );
