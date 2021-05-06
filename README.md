@@ -2,7 +2,7 @@
 
 [Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
 
-[Link to df csv file week 1](https://drive.google.com/drive/folders/18hYQ8VMuRqI5BbjhQWmEmcKjGr8gxxyc?usp=sharing)
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
 
 ## Presentation (30 points)
 
@@ -10,24 +10,28 @@ Content
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
-The team members have drafted their project, including the following:
+Content
 
-- Selected topic :white_check_mark:
-  - Help Amazon identify products bought together to increase upsell and revenues by analyzing Amazon Marketplace data for relationships between Customer IDs and Product IDs.
+The presentation outlines the project, including the following:
 
-- Reason they selected the topic :white_check_mark:
+Selected topic: ✅
+- Ecommerce Consumer Beahvior: An Investigation of Amazon’s Consumer Behavior
+
+- Reason they selected the topic ✅:
   - Data analysis is key for strategic and well-informed decision making
   - Big data allows e-commerce businesses to understand customers better through customer behavior analysis
-  - Helps target specific customers segments to upsell products, increase conversion rates and grow sales
+  - Helps target specific customers segments to upsell products, increase conversion rates and grows sales
+  - Better customer segmentation to improve targeted marketing campaigns and increase sales
+  - Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
 
-- Description of the source of data :white_check_mark:
-  - Amazon.com reviews data publically available from Amazon S3.
+- Description of the source of data: ✅
+  - Team will be using Amazon S3 data.
 
-- Questions they hope to answer with the data :white_check_mark:
-  - Can we predict which products a consumer will most likely purchase together across product categories?
+- Questions they hope to answer with the data: ✅
+  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
+  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
+  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
 
-- Note:
-  - The content does not yet need to be in the form of a presentation. It can be text in the README.md.
 
 ## GitHub Repository (10 points)
 
