@@ -6,8 +6,6 @@
 
 ## Presentation (30 points)
 
-Content
-
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
 Content
@@ -31,6 +29,13 @@ Selected topic: ✅
   - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
   - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
   - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
+
+- Description of the data exploration phase of the project: 
+  - Each research question contains its own respective ETL process. Full details of the process are available on the presentation slides link: [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
+  - Below is the ETL Process:
+   - Extract: Team extracted product or product segments from Amazon S3.
+   - Transform: Team loaded the data into a PySpark dataframe and performed preliminary cleaning in preparation to create a dataframe suitable for analysis.
+   - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
 
 
 ## GitHub Repository (10 points)
