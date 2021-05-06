@@ -1,32 +1,9 @@
--- Tables Used in NLP Analysis
-
--- Base table for Airmattress NLP Analysis
--- should be deleted?
-
-CREATE TABLE "airmattress_reviews" (
-    "customer_id" int,
-    "review_id" varchar   NOT NULL,
-    "product_id" varchar,
-    "product_parent" int,
-    "product_title" varchar,
-    "product_category" varchar,
-    "star_rating" smallint,
-    "helpful_votes" int,
-    "total_votes" int,
-    "vine" text,
-    "verified_purchase" text,
-    "review_headline" varchar,
-    "review_body" varchar,
-    "review_date" date,
-    CONSTRAINT "pk_airmattress_sentiment" PRIMARY KEY (
-        "review_id"
-     )
-);
-
-
--- Topic Analysis Table
+-- Static Data Used in NLP Analysis
 -- Reviews for Airmattress (product_id = B000M0MJU2)
+-- Reviews for Verified Purchases Only
 
+-- Topic Analysis 
+-- Table of all reviews
 CREATE TABLE "airmattress_cleaned" (
     "customer_id" int,
     "review_id" varchar,
@@ -38,11 +15,9 @@ CREATE TABLE "airmattress_cleaned" (
      )
 );
 
--- Sentiment Analysis Table - drop existing!
--- Reviews for Airmattress (product_id = B000M0MJU2)
--- To be filtered for Top_10 and Bottom_10
-
-CREATE TABLE "airmattress_sentiment" (
+-- Sentiment Analysis
+-- Table of top 50 reviews (as determined by votes)
+CREATE TABLE "airmattress_top_voted_reviews" (
     "customer_id" int,
     "review_id" varchar,
     "star_rating" smallint,
@@ -50,7 +25,7 @@ CREATE TABLE "airmattress_sentiment" (
     "total_votes" int,
     "review_headline" text,
     "review_body" text,
-    CONSTRAINT "pk_airmattress_cleaned" PRIMARY KEY (
+    CONSTRAINT "pk_airmattress_top_voted_reviews" PRIMARY KEY (
         "review_id"
      )
 );
