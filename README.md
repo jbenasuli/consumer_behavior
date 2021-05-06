@@ -97,6 +97,8 @@ Note: indvidual branches will soon be deleted in favor of role/deliverable align
 
 Team members submit the code for their machine learning model, as well as the following: ✅
 
+- Please see Machine Learning Markdown document for more information: https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit
+
 - Description of preliminary data preprocessing ✅
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision- making process ✅
