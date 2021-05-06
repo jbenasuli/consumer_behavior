@@ -4,7 +4,7 @@
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
 
-## Presentation (30 points)
+## Presentation (15 points)
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
@@ -93,28 +93,59 @@ List of all branches:
 
 Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches. (Currently up to date) ✅
 
-## Machine Learning Model (35 points)
+## Machine Learning Model (30 points)
 
-[Link to machine learning schema](https://docs.google.com/document/d/1KiMA-ZG77uDJ1l1j62DKldMrqqjs5tJmXGeLCcyKyWo/edit)
+Team members submit the code for their machine learning model, as well as the following:
 
-Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+- Description of preliminary data preprocessing ✅
 
-- Takes in data from the provisional database :white_check_mark:
-![ml-screenshot-1](resources/md-imgs/take-in-50.png)
+- Description of preliminary feature engineering and preliminary feature selection, including their decision- making process ✅
 
-- Outputs label for input data :white_check_mark:
-![ml-screenshot-3](resources/md-imgs/apriori-output-unsorted.png)
+- Description of how data was split into training and testing sets ✅
 
-## Database Integration (25 points)
+- Explanation of model choice, including limitations and benefit ✅
 
-Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
 
-- Sample data that mimics the expected final database structure or schema :white_check_mark:
-![db-screenshot-1](resources/md-imgs/data-summary.png)
+## Database Integration (30 points)
 
-- Draft machine learning model is connected to the provisional database :white_check_mark:
-![db-screenshot-2](resources/md-imgs/dtypes-screenshot.png)
+Team members present a fully integrated database:
 
-## Dashboard (0 points)
+Database stores static data for use during the project ✅
+<img width="798" alt="Screen Shot 2021-05-06 at 6 23 46 PM" src="https://user-images.githubusercontent.com/74932178/117372841-3442ff00-ae98-11eb-98b5-851f9b88777d.png">
 
-There are no deliverables associated with the dashboard for this segment.
+Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) ✅
+<img width="993" alt="Screen Shot 2021-05-06 at 6 24 24 PM" src="https://user-images.githubusercontent.com/74932178/117372900-4ae95600-ae98-11eb-8c56-d6eac6e2f80e.png">
+
+
+Includes at least two tables ✅
+
+(https://github.com/jbenasuli/final_project/tree/database/dev/database/ERDs)
+
+Includes at least one join using the database language (not including any joins in Pandas) ✅
+
+<img width="840" alt="Screen Shot 2021-05-06 at 6 24 51 PM" src="https://user-images.githubusercontent.com/74932178/117372938-5b013580-ae98-11eb-9d8a-23e8108087c3.png">
+
+
+Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
+
+<img width="1054" alt="Screen Shot 2021-05-06 at 6 25 06 PM" src="https://user-images.githubusercontent.com/74932178/117372957-63597080-ae98-11eb-8c8a-df56806efbfd.png">
+
+General note: If you use a SQL database, you must provide your ERD with relationships. ✅
+
+Please see presentation slides for ERD. (https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+
+## Dashboard (15 points)
+
+A blueprint for the dashboard is created and includes all of the following:
+
+Storyboard on Google Slide(s) ✅
+
+(https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+
+Description of the tool(s) that will be used to create final dashboard ✅
+
+https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit
+
+Description of interactive element(s): ✅
+
+https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit
