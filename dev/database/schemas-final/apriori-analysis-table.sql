@@ -57,7 +57,7 @@ INSERT INTO apriori_analysis (customer_id, product_id, quantity)
 			COUNT(product_id)  as apparel_counts
 			FROM apparel_apriori
 			GROUP BY product_id
-			HAVING COUNT(product_id) >300) as filtered_list);
+			HAVING COUNT(product_id) >50) as filtered_list);
 
 -- check for successful import
 SELECT * FROM apriori_analysis LIMIT 10;
