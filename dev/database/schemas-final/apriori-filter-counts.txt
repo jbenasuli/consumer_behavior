@@ -1,7 +1,7 @@
 append filtered apparel data to apriori_analysis table
 -- count threshold = 50 yields 601,375 results
 -- count threshold = 100 yields 314,501 results
--- count threshold = 200 yields 145,686 results 83038
+-- count threshold = 200 yields 145,686 results 
 -- count threshold = 300 yields 83,038 results 
 
 append filtered furniture data to apriori_analysis table
@@ -16,7 +16,7 @@ append filtered music data to apriori_analysis table
 -- count threshold = 200 yields 151,669 results
 -- count threshold = 300 yields 91,067 results 
 
-append filtered office_products data to apriori_analysis table 132709
+append filtered office_products data to apriori_analysis table
 -- count threshold = 50 yields 1,169,618 results
 -- count threshold = 100 yields 889,244 results
 -- count threshold = 200 yields 615,297 results
