@@ -40,12 +40,12 @@ Selected topic: ✅
 
 - Description of the analysis phase of the project: ✅
   - Please see ML Model document for further explanation:
-  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? 
-   - Apriori Algorithm Association Analysis 
-  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? 
-   - Unsupervised Learning K-Means Cluster Analysis
-  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
-   - Natural Language Processing Topic Analysis
+  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis 
+
+  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? - Unsupervised Learning K-Means Cluster Analysis
+   
+  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?  - Natural Language Processing Topic Analysis
+  
  
 Draft of Presentation Slides: ✅
 - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
@@ -55,41 +55,43 @@ Draft of Presentation Slides: ✅
 
 ### Main Branch
 
-The main branch should include:
+All code in the main branch is production ready ✅
 
-- README.md :white_check_mark:
+The main branch should include:
+- All code necessary to perform exploratory analysis ✅
+- Some code necessary to complete the machine learning portion of the project ✅
 
 ### README.md
 
 The README.md should include:
 
-- Description of the communication protocols :white_check_mark:
+- Description of the communication protocols ✅
   - Team members communicate primarily via slack
   - Questions and comments are also relayed by leveraging the Google Apps' comments tool
   - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
-  - All project files are available to team members via this Github repo
+  
+- Outline of the project (this may include images, but should be easy to follow and digest) ✅
+ - (https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit?ts=60900edd&pli=1#slide=id.gd6fa5732b4_8_146)
+  - README.md
 
-### Individual Branches
+Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
 
 Requirements for the individual branches follow:
 
-- At least one branch for each team member :white_check_mark:
+- At least one branch for each team member ✅:
 
-- Each team member has at least four commits for the duration of the first segment :white_check_mark:
+- Each team member has at least four commits for the duration of the first segment ✅
 
 List of all branches:
 
 - main
-- james-branch
-- alexa-branch
-- livia-branch
-- anthony-branch
 - markdowns
 - resources-branch
+- dashboard-branch
 - database
 - ml-model
 
-Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches.
+Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches. (Currently up to date) ✅
 
 ## Machine Learning Model (35 points)
 
