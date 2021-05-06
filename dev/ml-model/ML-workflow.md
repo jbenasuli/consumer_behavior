@@ -1,5 +1,5 @@
-# This is the folder for ML Model Work
+# This is the folder for ML Models
 
-## use the ml-model branch when working on the ML Model
+## Use the ml-model branch when working on the ML Model
 
 ## Current files can live in top level, other files will live in child folders
