@@ -15,7 +15,7 @@ The presentation outlines the project, including the following:
 Selected topic: ✅
 - Ecommerce Consumer Beahvior: An Investigation of Amazon’s Consumer Behavior
 
-- Reason they selected the topic ✅:
+- Reason they selected the topic: ✅
   - Data analysis is key for strategic and well-informed decision making
   - Big data allows e-commerce businesses to understand customers better through customer behavior analysis
   - Helps target specific customers segments to upsell products, increase conversion rates and grows sales
@@ -78,7 +78,7 @@ Note: The descriptions and explanations required in all other project deliverabl
 
 Requirements for the individual branches follow:
 
-- At least one branch for each team member ✅:
+- At least one branch for each team member ✅
 
 - Each team member has at least four commits for the duration of the first segment ✅
 
@@ -95,7 +95,7 @@ Note: indvidual branches will soon be deleted in favor of role/deliverable align
 
 ## Machine Learning Model (30 points)
 
-Team members submit the code for their machine learning model, as well as the following:
+Team members submit the code for their machine learning model, as well as the following: ✅
 
 - Description of preliminary data preprocessing ✅
 
