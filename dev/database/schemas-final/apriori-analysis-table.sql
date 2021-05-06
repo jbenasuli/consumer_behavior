@@ -131,3 +131,94 @@ INSERT INTO apriori_analysis (customer_id, product_id, quantity)
 -- check for successful import
 SELECT * FROM apriori_analysis LIMIT 10;
 
+-- personal_care_appliances segment
+-- add quantity column
+ALTER TABLE personal_care_appliances_apriori
+	ADD quantity INT NOT NULL DEFAULT 1;
+
+-- append filtered personal_care_appliances data to apriori_analysis table
+-- count threshold = 50 yields xxx,xxx results
+-- count threshold = 100 yields xx,xxx results
+INSERT INTO apriori_analysis (customer_id, product_id, quantity)
+	SELECT customer_id, product_id, quantity
+	FROM personal_care_appliances_apriori
+	WHERE product_id IN (
+		SELECT product_id
+		FROM (
+			SELECT product_id,
+			COUNT(product_id)  as personal_care_appliances_counts
+			FROM personal_care_appliances_apriori
+			GROUP BY product_id
+			HAVING COUNT(product_id) >50) as filtered_list);
+
+-- check for successful import
+SELECT * FROM apriori_analysis LIMIT 10;
+
+-- video_games segment
+-- add quantity column
+ALTER TABLE video_games_apriori
+	ADD quantity INT NOT NULL DEFAULT 1;
+
+-- append filtered video_games data to apriori_analysis table
+-- count threshold = 50 yields xxx,xxx results
+-- count threshold = 100 yields xx,xxx results
+INSERT INTO apriori_analysis (customer_id, product_id, quantity)
+	SELECT customer_id, product_id, quantity
+	FROM video_games_apriori
+	WHERE product_id IN (
+		SELECT product_id
+		FROM (
+			SELECT product_id,
+			COUNT(product_id)  as video_games_counts
+			FROM video_games_apriori
+			GROUP BY product_id
+			HAVING COUNT(product_id) >50) as filtered_list);
+
+-- check for successful import
+SELECT * FROM apriori_analysis LIMIT 10;
+
+-- videos segment
+-- add quantity column
+ALTER TABLE videos_apriori
+	ADD quantity INT NOT NULL DEFAULT 1;
+
+-- append filtered videos data to apriori_analysis table
+-- count threshold = 50 yields xxx,xxx results
+-- count threshold = 100 yields xx,xxx results
+INSERT INTO apriori_analysis (customer_id, product_id, quantity)
+	SELECT customer_id, product_id, quantity
+	FROM videos_apriori
+	WHERE product_id IN (
+		SELECT product_id
+		FROM (
+			SELECT product_id,
+			COUNT(product_id)  as videos_counts
+			FROM videos_apriori
+			GROUP BY product_id
+			HAVING COUNT(product_id) >50) as filtered_list);
+
+-- check for successful import
+SELECT * FROM apriori_analysis LIMIT 10;
+
+-- watches segment
+-- add quantity column
+ALTER TABLE watches_apriori
+	ADD quantity INT NOT NULL DEFAULT 1;
+
+-- append filtered watches data to apriori_analysis table
+-- count threshold = 50 yields xxx,xxx results
+-- count threshold = 100 yields xx,xxx results
+INSERT INTO apriori_analysis (customer_id, product_id, quantity)
+	SELECT customer_id, product_id, quantity
+	FROM watches_apriori
+	WHERE product_id IN (
+		SELECT product_id
+		FROM (
+			SELECT product_id,
+			COUNT(product_id)  as watches_counts
+			FROM watches_apriori
+			GROUP BY product_id
+			HAVING COUNT(product_id) >50) as filtered_list);
+
+-- check for successful import
+SELECT * FROM apriori_analysis LIMIT 10;
