@@ -142,7 +142,7 @@ INSERT INTO personal_care_appliances_apriori_analysis (customer_id, product_id, 
 				FROM personal_care_appliances_apriori as pca_table
 				GROUP BY product_id
 				ORDER BY pca_counts DESC
-				LIMIT 600) as foo);
+				LIMIT 500) as foo);
 
 -- check for successful import
 SELECT * FROM personal_care_appliances_apriori_analysis LIMIT 10;
@@ -180,7 +180,7 @@ INSERT INTO videos_apriori_analysis (customer_id, product_id, quantity)
 				FROM videos_apriori as va_table
 				GROUP BY product_id
 				ORDER BY vid_counts DESC
-				LIMIT 1100) as foo);
+				LIMIT 950) as foo);
 
 -- check for successful import
 SELECT * FROM videos_apriori_analysis LIMIT 10;
@@ -200,7 +200,7 @@ INSERT INTO watches_apriori_analysis (customer_id, product_id, quantity)
 				FROM watches_apriori as wa_table
 				GROUP BY product_id
 				ORDER BY wa_counts DESC
-				LIMIT 200) as foo);
+				LIMIT 175) as foo);
 
 -- check for successful import
 SELECT * FROM watches_apriori_analysis LIMIT 10;

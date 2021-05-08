@@ -25,9 +25,9 @@ Insert filtered office_products data to office_products_apriori_analysis table
 -- Shape = (174436, 2, 125)
 
 Insert filtered personal_care_appliances data to personal_care_appliances_apriori_analysis table
--- Unique Product IDs = 600
+-- Unique Product IDs = 500
 -- Row Count = 37454 results
--- Shape = (37454, 2, 600)
+-- Shape = (37454, 2, 500)
 
 Insert filtered video_games data to video_games_apriori_analysis table
 -- Unique Product IDs = 125
@@ -35,12 +35,12 @@ Insert filtered video_games data to video_games_apriori_analysis table
 -- Shape = (154796, 2, 125)
 
 Insert filtered videos data to videos_apriori_analysis table
--- Unique Product IDs = 1100
--- Row Count = 16997 results
--- Shape = (16997, 2, 1100)
+-- Unique Product IDs = 950
+-- Row Count = 15532 results
+-- Shape = (15532, 2, 950)
 
 Insert filtered watches data to watches_apriori_analysis table
--- Unique Product IDs = 200
--- Row Count = 112265 results
--- Shape = (112265, 2, 1200)
+-- Unique Product IDs = 175
+-- Row Count = 104671 results
+-- Shape = (104671, 2, 175)
 
