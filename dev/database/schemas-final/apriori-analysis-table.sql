@@ -180,7 +180,7 @@ INSERT INTO videos_apriori_analysis (customer_id, product_id, quantity)
 				FROM videos_apriori as va_table
 				GROUP BY product_id
 				ORDER BY vid_counts DESC
-				LIMIT 1200) as foo);
+				LIMIT 1100) as foo);
 
 -- check for successful import
 SELECT * FROM videos_apriori_analysis LIMIT 10;

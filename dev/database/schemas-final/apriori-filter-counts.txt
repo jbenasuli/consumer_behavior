@@ -35,9 +35,9 @@ Insert filtered video_games data to video_games_apriori_analysis table
 -- Shape = (154796, 2, 125)
 
 Insert filtered videos data to videos_apriori_analysis table
--- Unique Product IDs = 1200
--- Row Count = 17897 results
--- Shape = (17897, 2, 1200)
+-- Unique Product IDs = 1100
+-- Row Count = 16997 results
+-- Shape = (16997, 2, 1100)
 
 Insert filtered watches data to watches_apriori_analysis table
 -- Unique Product IDs = 200
