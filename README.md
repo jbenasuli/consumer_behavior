@@ -39,7 +39,7 @@ Selected topic: ✅
    - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
 
 - Description of the analysis phase of the project: ✅
-  - Please see ML Model document for further explanation: [Link to the document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
+  - Please see ML Model document for further explanation: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
   - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis 
 
   - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? - Unsupervised Learning K-Means Cluster Analysis
