@@ -32,14 +32,14 @@ Selected topic: ✅
 
 - Description of the data exploration phase of the project: ✅
   - Each research question contains its own respective ETL process. Full details of the process are available on the presentation slides link: 
-  - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
+  - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0649fe845_0_64)
   - Below is the ETL Process:
    - Extract: Team extracted product or product segments from Amazon S3.
    - Transform: Team loaded the data into a PySpark dataframe and performed preliminary cleaning in preparation to create a dataframe suitable for analysis.
    - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
 
 - Description of the analysis phase of the project: ✅
-  - Please see ML Model document for further explanation:
+  - Please see ML Model document for further explanation: [Link to the document](https://docs.google.com/document/d/1KiMA-ZG77uDJ1l1j62DKldMrqqjs5tJmXGeLCcyKyWo/edit)
   - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis 
 
   - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? - Unsupervised Learning K-Means Cluster Analysis
@@ -71,7 +71,7 @@ The README.md should include:
   - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
   
 - Outline of the project (this may include images, but should be easy to follow and digest) ✅
- - (https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit?ts=60900edd&pli=1#slide=id.gd6fa5732b4_8_146)
+ - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit?ts=60900edd&pli=1#slide=id.gd6fa5732b4_8_146)
   - README.md
 
 Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
@@ -97,7 +97,7 @@ Note: indvidual branches will soon be deleted in favor of role/deliverable align
 
 Team members submit the code for their machine learning model, as well as the following: ✅
 
-- Please see Machine Learning Markdown document for more information: https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit
+- Please see Machine Learning Markdown document for more information: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
 
 - Description of preliminary data preprocessing ✅
 
@@ -110,6 +110,8 @@ Team members submit the code for their machine learning model, as well as the fo
 
 ## Database Integration (30 points)
 
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_195)
+
 Team members present a fully integrated database:
 
 Database stores static data for use during the project ✅
@@ -121,7 +123,7 @@ Database interfaces with the project in some format (e.g., scraping updates the 
 
 Includes at least two tables ✅
 
-(https://github.com/jbenasuli/final_project/tree/database/dev/database/ERDs)
+[Link to Github](https://github.com/jbenasuli/final_project/tree/database/dev/database/ERDs)
 
 Includes at least one join using the database language (not including any joins in Pandas) ✅
 
@@ -134,7 +136,7 @@ Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
 
 General note: If you use a SQL database, you must provide your ERD with relationships. ✅
 
-Please see presentation slides for ERD. (https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+Please see presentation slides for ERD. [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229)
 
 ## Dashboard (15 points)
 
@@ -142,12 +144,18 @@ A blueprint for the dashboard is created and includes all of the following:
 
 Storyboard on Google Slide(s) ✅
 
-(https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd4bf7f7e4a_1_5)
 
 Description of the tool(s) that will be used to create final dashboard ✅
 
-https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit
+[Link to document](https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit)
 
 Description of interactive element(s): ✅
 
-https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit
+[Link to document](https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit)
+
+## Analysis and Insights
+
+- Draft document describing the questions we have worked on and insights we have so far ✅
+- [Link to document](https://docs.google.com/document/d/15iCBus6TBfVCmOw-nTj2KKg-ZvalTn0ShCdW_uw1PM0/edit)
+
