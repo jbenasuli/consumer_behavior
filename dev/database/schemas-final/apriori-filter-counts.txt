@@ -1,52 +1,46 @@
-append filtered apparel data to apriori_analysis table
--- count threshold = 50 yields 601,375 results
--- count threshold = 100 yields 314,501 results
--- count threshold = 200 yields 145,686 results 
--- count threshold = 300 yields 83,038 results 
+Data Filtering for Apriori Analysis
+Establish filter thresholds for each segment 
+where shape of segment data does not exceed notebook memory
 
-append filtered furniture data to apriori_analysis table
--- count threshold = 50 yields 299,257 results
--- count threshold = 100 yields 207,772 results
--- count threshold = 200 yields 125,441 results
--- count threshold = 300 yields 89,579 results 
+Filter = Top n Unique Product IDs (as determined by product_id value_counts)
 
-append filtered music data to apriori_analysis table
--- count threshold = 50 yields 490,186 results
--- count threshold = 100 yields 295,764 results
--- count threshold = 200 yields 151,669 results
--- count threshold = 300 yields 91,067 results 
+Insert filtered apparel data to apparel_apriori_anlysis table
+-- Unique Product IDs = 200
+-- Row Count = 92242 results
+-- Shape = (92242, 2, 200)
 
-append filtered office_products data to apriori_analysis table
--- count threshold = 50 yields 1,169,618 results
--- count threshold = 100 yields 889,244 results
--- count threshold = 200 yields 615,297 results
--- count threshold = 300 yields 459,558 results
--- count threshold = 400 yields 359,614 results
--- count threshold = 500 yields 295,947 results
--- count threshold = 600 yields 238,108 results
--- count threshold = 700 yields 204,661 results
--- count threshold = 800 yields 169,680 results
--- count threshold = 900 yields 152,761 results
--- count threshold = 1000 yields 132,709 results
--- count threshold = 1250 yields 95,172 results
+Insert filtered furniture data to furniture_analysis table
+-- Unique Product IDs = 225
+-- Row Count = 97919 results
+-- Shape = (97919, 2, 225)
 
-append filtered personal_care_appliances data to apriori_analysis table
--- count threshold = 25 yields 32,545 results
--- count threshold = 50 yields 26,738 results
+Insert filtered music data to music_apriori_analysis table
+-- Unique Product IDs = 200
+-- Row Count = 95762 results
+-- Shape = (95762, 2, 200)
 
-append filtered video_games data to apriori_analysis table
--- count threshold = 50 yields 819,043 results
--- count threshold = 100 yields 665,048 results
--- count threshold = 200 yields 488,011 results
--- count threshold = 300 yields 380,130 results
--- count threshold = 500 yields 242,321 results
--- count threshold = 1000 yields 93,885 results
+Insert filtered office_products data to office_products_apriori_analysis table
+-- Unique Product IDs = 125
+-- Row Count = 174436 results
+-- Shape = (174436, 2, 125)
 
-append filtered videos data to apriori_analysis table
--- count threshold = 5 yields 31,403 results
--- count threshold = 10 yields 14,602 results
--- count threshold = 25 yields 3,384 results
--- count threshold = 50 yields 544 results
+Insert filtered personal_care_appliances data to personal_care_appliances_apriori_analysis table
+-- Unique Product IDs = 600
+-- Row Count = 37454 results
+-- Shape = (37454, 2, 600)
 
+Insert filtered video_games data to video_games_apriori_analysis table
+-- Unique Product IDs = 125
+-- Row Count = 154796 results
+-- Shape = (154796, 2, 125)
 
+Insert filtered videos data to videos_apriori_analysis table
+-- Unique Product IDs = 1200
+-- Row Count = 17897 results
+-- Shape = (17897, 2, 1200)
+
+Insert filtered watches data to watches_apriori_analysis table
+-- Unique Product IDs = 200
+-- Row Count = 112265 results
+-- Shape = (112265, 2, 1200)
 
