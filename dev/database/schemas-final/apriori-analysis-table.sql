@@ -1,13 +1,54 @@
 -- Create Tables for Segment Apriori Analysis
 
 -- Step 1: Create New Table for Each Segment
--- Create Table for Apparel Apriori
+
+-- Create Table for Apparel Apriori Analysis
 CREATE TABLE "apparel_apriori_analysis" (
     "customer_id" int,
 	"product_id" varchar,
 	"quantity" int);
 
+-- Create Table for Furniture Apriori Analysis
+CREATE TABLE "furniture_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
 
+-- Create Table for Music Apriori Analysis
+CREATE TABLE "music_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
+
+-- Create Table for Office Products Apriori Analysis
+CREATE TABLE "office_products_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
+
+-- Create Table for Personal Care Applicances Apriori Analysis
+CREATE TABLE "personal_care_applicances_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
+
+-- Create Table for Video Games Apriori Analysis
+CREATE TABLE "video_games_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
+
+-- Create Table for Videos Apriori Analysis
+CREATE TABLE "videos_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
+
+-- Create Table for Watches Apriori Analysis
+CREATE TABLE "watches_apriori_analysis" (
+    "customer_id" int,
+	"product_id" varchar,
+	"quantity" int);
 
 -- Step 2: Populate Table for Each Segment
 
@@ -82,7 +123,7 @@ INSERT INTO office_products_apriori_analysis (customer_id, product_id, quantity)
 				FROM office_products_apriori as ops_table
 				GROUP BY product_id
 				ORDER BY office_products_counts DESC
-				LIMIT 125) as foo)
+				LIMIT 125) as foo);
 
 -- check for successful import
 SELECT * FROM office_products_apriori_analysis LIMIT 10;
@@ -109,17 +150,18 @@ SELECT COUNT(*) FROM personal_care_appliances_apriori_analysis;
 
 -- video_games segment
 -- append filtered video_games data to apriori_analysis table
-INSERT INTO apriori_analysis (customer_id, product_id, quantity)
+INSERT INTO video_games_apriori_analysis (customer_id, product_id, quantity)
 	SELECT customer_id, product_id, quantity
-	FROM video_games_apriori
-	WHERE product_id IN (
-		SELECT product_id
-		FROM (
-			SELECT product_id,
-			COUNT(product_id)  as video_games_counts
-			FROM video_games_apriori
-			GROUP BY product_id
-			HAVING COUNT(product_id) >50) as filtered_list);
+		FROM video_games_apriori
+		WHERE product_id IN (
+			SELECT product_id
+			FROM (
+				SELECT product_id,
+				COUNT(product_id)  as vg_counts
+				FROM video_games_apriori as vg_table
+				GROUP BY product_id
+				ORDER BY vg_counts DESC
+				LIMIT 125) as foo);
 
 -- check for successful import
 SELECT * FROM video_games_apriori_analysis LIMIT 10;
@@ -147,17 +189,19 @@ SELECT COUNT(*) FROM videos_apriori_analysis;
 -- watches segment
 -- add quantity column
 -- append filtered watches data to apriori_analysis table
-INSERT INTO apriori_analysis (customer_id, product_id, quantity)
+INSERT INTO watches_apriori_analysis (customer_id, product_id, quantity)
 	SELECT customer_id, product_id, quantity
-	FROM watches_apriori
-	WHERE product_id IN (
-		SELECT product_id
-		FROM (
-			SELECT product_id,
-			COUNT(product_id)  as watches_counts
-			FROM watches_apriori
-			GROUP BY product_id
-			HAVING COUNT(product_id) >50) as filtered_list);
+		FROM watches_apriori
+		WHERE product_id IN (
+			SELECT product_id
+			FROM (
+				SELECT product_id,
+				COUNT(product_id)  as wa_counts
+				FROM watches_apriori as wa_table
+				GROUP BY product_id
+				ORDER BY wa_counts DESC
+				LIMIT 200) as foo);
 
 -- check for successful import
-SELECT * FROM apriori_analysis LIMIT 10;
+SELECT * FROM watches_apriori_analysis LIMIT 10;
+SELECT COUNT(*) FROM watches_apriori_analysis;
