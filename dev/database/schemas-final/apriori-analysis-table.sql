@@ -142,7 +142,7 @@ INSERT INTO personal_care_appliances_apriori_analysis (customer_id, product_id, 
 				FROM personal_care_appliances_apriori as pca_table
 				GROUP BY product_id
 				ORDER BY pca_counts DESC
-				LIMIT 500) as foo);
+				LIMIT 400) as foo);
 
 -- check for successful import
 SELECT * FROM personal_care_appliances_apriori_analysis LIMIT 10;
@@ -180,14 +180,13 @@ INSERT INTO videos_apriori_analysis (customer_id, product_id, quantity)
 				FROM videos_apriori as va_table
 				GROUP BY product_id
 				ORDER BY vid_counts DESC
-				LIMIT 950) as foo);
+				LIMIT 750) as foo);
 
 -- check for successful import
 SELECT * FROM videos_apriori_analysis LIMIT 10;
 SELECT COUNT(*) FROM videos_apriori_analysis;
 
 -- watches segment
--- add quantity column
 -- append filtered watches data to apriori_analysis table
 INSERT INTO watches_apriori_analysis (customer_id, product_id, quantity)
 	SELECT customer_id, product_id, quantity
