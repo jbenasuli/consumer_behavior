@@ -13,7 +13,8 @@ Content
 The presentation outlines the project, including the following:
 
 Selected topic: ✅
-- Ecommerce Consumer Beahvior: An Investigation of Amazon’s Consumer Behavior
+
+- Ecommerce Consumer Behavior: An Investigation of Amazon’s Consumer Behavior
 
 - Reason they selected the topic: ✅
   - Data analysis is key for strategic and well-informed decision making
@@ -23,7 +24,7 @@ Selected topic: ✅
   - Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
 
 - Description of the source of data: ✅
-  - Team will be using Amazon S3 data.
+  - Team will be publicly available customer review data from the Amazon Vine program.
 
 - Questions they hope to answer with the data: ✅
   - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
@@ -31,25 +32,24 @@ Selected topic: ✅
   - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
 
 - Description of the data exploration phase of the project: ✅
-  - Each research question contains its own respective ETL process. Full details of the process are available on the presentation slides link: 
+  - Each research question contains its own respective ETL process. Full details of the process are available on the presentation slides link:
   - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0649fe845_0_64)
   - Below is the ETL Process:
-   - Extract: Team extracted product or product segments from Amazon S3.
-   - Transform: Team loaded the data into a PySpark dataframe and performed preliminary cleaning in preparation to create a dataframe suitable for analysis.
-   - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
+    - Extract: Team extracted product or product segments from Amazon S3.
+    - Transform: Team loaded the data into a PySpark dataframe and performed preliminary cleaning in preparation to create a dataframe suitable for analysis.
+    - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
 
 - Description of the analysis phase of the project: ✅
   - Please see ML Model document for further explanation: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
-  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis 
+  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis
 
   - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? - Unsupervised Learning K-Means Cluster Analysis
-   
+
   - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?  - Natural Language Processing Topic Analysis
   
- 
 Draft of Presentation Slides: ✅
-- [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
+- [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
 ## GitHub Repository (10 points)
 
@@ -58,21 +58,22 @@ Draft of Presentation Slides: ✅
 All code in the main branch is production ready ✅
 
 The main branch should include:
+
 - All code necessary to perform exploratory analysis ✅
 - Some code necessary to complete the machine learning portion of the project ✅
 
 ### README.md
 
-The README.md should include:
+All code in the master branch is production-ready :white_check_mark:
+
+The README.md must include:
 
 - Description of the communication protocols ✅
   - Team members communicate primarily via slack
   - Questions and comments are also relayed by leveraging the Google Apps' comments tool
-  - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
+  - Deliverables and issues are tracked in the team's google sheet to ensure all team members are aligned on the status of all the project's component parts
   
 - Outline of the project (this may include images, but should be easy to follow and digest) ✅
- - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit?ts=60900edd&pli=1#slide=id.gd6fa5732b4_8_146)
-  - README.md
 
 Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
 
@@ -80,18 +81,18 @@ Requirements for the individual branches follow:
 
 - At least one branch for each team member ✅
 
-- Each team member has at least four commits for the duration of the first segment ✅
+- Each team member has at least four commits for the duration of the second segment ✅
 
-List of all branches:
+List of all active branches:
 
 - main
 - markdowns
-- resources-branch
-- dashboard-branch
+- resources
+- dashboard
 - database
 - ml-model
 
-Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches. (Currently up to date) ✅
+Note: branches were merged, deleted and recreated before submission.
 
 ## Machine Learning Model (30 points)
 
@@ -106,7 +107,6 @@ Team members submit the code for their machine learning model, as well as the fo
 - Description of how data was split into training and testing sets ✅
 
 - Explanation of model choice, including limitations and benefit ✅
-
 
 ## Database Integration (30 points)
 
