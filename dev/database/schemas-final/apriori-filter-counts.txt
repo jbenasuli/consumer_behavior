@@ -1,0 +1,46 @@
+Data Filtering for Apriori Analysis
+Establish filter thresholds for each segment 
+where shape of segment data does not exceed notebook memory
+
+Filter = Top n Unique Product IDs (as determined by product_id value_counts)
+
+Insert filtered apparel data to apparel_apriori_anlysis table
+-- Unique Product IDs = 200
+-- Row Count = 92242 results
+-- Shape = (92242, 2, 200)
+
+Insert filtered furniture data to furniture_analysis table
+-- Unique Product IDs = 225
+-- Row Count = 97919 results
+-- Shape = (97919, 2, 225)
+
+Insert filtered music data to music_apriori_analysis table
+-- Unique Product IDs = 200
+-- Row Count = 95762 results
+-- Shape = (95762, 2, 200)
+
+Insert filtered office_products data to office_products_apriori_analysis table
+-- Unique Product IDs = 125
+-- Row Count = 174436 results
+-- Shape = (174436, 2, 125)
+
+Insert filtered personal_care_appliances data to personal_care_appliances_apriori_analysis table
+-- Unique Product IDs = 500
+-- Row Count = 37454 results
+-- Shape = (37454, 2, 500)
+
+Insert filtered video_games data to video_games_apriori_analysis table
+-- Unique Product IDs = 125
+-- Row Count = 154796 results
+-- Shape = (154796, 2, 125)
+
+Insert filtered videos data to videos_apriori_analysis table
+-- Unique Product IDs = 750
+-- Row Count = 13425 results
+-- Shape = (13425, 2, 750)
+
+Insert filtered watches data to watches_apriori_analysis table
+-- Unique Product IDs = 175
+-- Row Count = 104671 results
+-- Shape = (104671, 2, 175)
+

@@ -2,6 +2,7 @@
 -- Only verified purchase reviews
 -- Columns = customer_id, review_id and product_id
 -- PK = review_id
+-- Data Loaded from PySpark ETL
 
 -- create music_apriori table
 CREATE TABLE "music_apriori" (
