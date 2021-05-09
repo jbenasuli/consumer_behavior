@@ -34,6 +34,7 @@ ALTER TABLE video_games_apriori
 ALTER TABLE videos_apriori
 	ADD quantity INT NOT NULL DEFAULT 1;
 
+
 -- alter watches_apriori table
 ALTER TABLE watches_apriori
 	ADD quantity INT NOT NULL DEFAULT 1;
