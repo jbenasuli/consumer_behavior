@@ -52,7 +52,7 @@ Natural Language Processing
 - Code for the Topic Analysis is written in Python using Google Colab as the notebook environment.
 - Libraries:
   - spaCy 
-[Link to document](https://pypi.org/project/spacy/#:~:text=spaCy%20is%20a%20library%20for,and%20training%20for%2060%2B%20language)
+[Link to documentation](https://pypi.org/project/spacy/#:~:text=spaCy%20is%20a%20library%20for,and%20training%20for%2060%2B%20language)
 
   - NLTK
     - Stopwords
