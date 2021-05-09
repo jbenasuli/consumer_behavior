@@ -39,6 +39,32 @@ Apriori API
 
 Source: <http://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/>
 
+Unsupervised Machine Learning
+
+- Create customer segmentation based on product category
+- Goal is to target specific segments based on categories purchased
+- Data is loaded from PostgresSQL using SQLalchemy in a Google cloab notebook environment. 
+- Code for KMeans analysis is written in Python using Google colab. 
+- The sklearn.cluster dependency is used to utilize the KMeans library for analysis.
+
+Natural Language Processing 
+- Data is loaded from PostgresSQL using SQLalchemy in a Google colab notebook environment.
+- Code for the Topic Analysis is written in Python using Google Colab as the notebook environment.
+- Libraries:
+  - spaCy 
+[Link to documentation](https://pypi.org/project/spacy/#:~:text=spaCy%20is%20a%20library%20for,and%20training%20for%2060%2B%20language)
+
+  - NLTK
+    - Stopwords
+    - WordNetLemmetizer
+    - Word_tokenize
+    - FreqDist
+[Link to documentation](https://www.nltk.org/)
+
+  - Wordcloud
+    - Wordcloud, STOPWORDS
+ [Link to documentation](https://amueller.github.io/word_cloud/)
+
 ## Dashboard
 
 - **TBD**
