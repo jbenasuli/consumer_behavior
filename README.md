@@ -2,95 +2,160 @@
 
 [Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
 
-[Link to df csv file week 1](https://drive.google.com/drive/folders/18hYQ8VMuRqI5BbjhQWmEmcKjGr8gxxyc?usp=sharing)
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
 
-## Presentation (30 points)
-
-Content
+## Presentation (15 points)
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
 
-The team members have drafted their project, including the following:
+Content
 
-- Selected topic :white_check_mark:
-  - Help Amazon identify products bought together to increase upsell and revenues by analyzing Amazon Marketplace data for relationships between Customer IDs and Product IDs.
+The presentation outlines the project, including the following:
 
-- Reason they selected the topic :white_check_mark:
+Selected topic: ✅
+- Ecommerce Consumer Beahvior: An Investigation of Amazon’s Consumer Behavior
+
+- Reason they selected the topic: ✅
   - Data analysis is key for strategic and well-informed decision making
   - Big data allows e-commerce businesses to understand customers better through customer behavior analysis
-  - Helps target specific customers segments to upsell products, increase conversion rates and grow sales
+  - Helps target specific customers segments to upsell products, increase conversion rates and grows sales
+  - Better customer segmentation to improve targeted marketing campaigns and increase sales
+  - Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
 
-- Description of the source of data :white_check_mark:
-  - Amazon.com reviews data publically available from Amazon S3.
+- Description of the source of data: ✅
+  - Team will be using Amazon S3 data.
 
-- Questions they hope to answer with the data :white_check_mark:
-  - Can we predict which products a consumer will most likely purchase together across product categories?
+- Questions they hope to answer with the data: ✅
+  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
+  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
+  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
 
-- Note:
-  - The content does not yet need to be in the form of a presentation. It can be text in the README.md.
+- Description of the data exploration phase of the project: ✅
+  - Each research question contains its own respective ETL process. Full details of the process are available on the presentation slides link: 
+  - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0649fe845_0_64)
+  - Below is the ETL Process:
+   - Extract: Team extracted product or product segments from Amazon S3.
+   - Transform: Team loaded the data into a PySpark dataframe and performed preliminary cleaning in preparation to create a dataframe suitable for analysis.
+   - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
+
+- Description of the analysis phase of the project: ✅
+  - Please see ML Model document for further explanation: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
+  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis 
+
+  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? - Unsupervised Learning K-Means Cluster Analysis
+   
+  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?  - Natural Language Processing Topic Analysis
+  
+ 
+Draft of Presentation Slides: ✅
+- [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+
 
 ## GitHub Repository (10 points)
 
 ### Main Branch
 
-The main branch should include:
+All code in the main branch is production ready ✅
 
-- README.md :white_check_mark:
+The main branch should include:
+- All code necessary to perform exploratory analysis ✅
+- Some code necessary to complete the machine learning portion of the project ✅
 
 ### README.md
 
 The README.md should include:
 
-- Description of the communication protocols :white_check_mark:
+- Description of the communication protocols ✅
   - Team members communicate primarily via slack
   - Questions and comments are also relayed by leveraging the Google Apps' comments tool
   - Deliverables and issues are tracked in the team's google sheeet to ensure all team members are aligned on the status of all the project's component parts
-  - All project files are available to team members via this Github repo
+  
+- Outline of the project (this may include images, but should be easy to follow and digest) ✅
+ - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit?ts=60900edd&pli=1#slide=id.gd6fa5732b4_8_146)
+  - README.md
 
-### Individual Branches
+Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
 
 Requirements for the individual branches follow:
 
-- At least one branch for each team member :white_check_mark:
+- At least one branch for each team member ✅
 
-- Each team member has at least four commits for the duration of the first segment :white_check_mark:
+- Each team member has at least four commits for the duration of the first segment ✅
 
 List of all branches:
 
 - main
-- james-branch
-- alexa-branch
-- livia-branch
-- anthony-branch
 - markdowns
 - resources-branch
+- dashboard-branch
 - database
 - ml-model
 
-Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches.
+Note: indvidual branches will soon be deleted in favor of role/deliverable aligned branches. (Currently up to date) ✅
 
-## Machine Learning Model (35 points)
+## Machine Learning Model (30 points)
 
-[Link to machine learning schema](https://docs.google.com/document/d/1KiMA-ZG77uDJ1l1j62DKldMrqqjs5tJmXGeLCcyKyWo/edit)
+Team members submit the code for their machine learning model, as well as the following: ✅
 
-Team members will be expected to present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+- Please see Machine Learning Markdown document for more information: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
 
-- Takes in data from the provisional database :white_check_mark:
-![ml-screenshot-1](resources/md-imgs/take-in-50.png)
+- Description of preliminary data preprocessing ✅
 
-- Outputs label for input data :white_check_mark:
-![ml-screenshot-3](resources/md-imgs/apriori-output-unsorted.png)
+- Description of preliminary feature engineering and preliminary feature selection, including their decision- making process ✅
 
-## Database Integration (25 points)
+- Description of how data was split into training and testing sets ✅
 
-Team members will be expected to present a provisional database that stands in for the final database and accomplishes the following:
+- Explanation of model choice, including limitations and benefit ✅
 
-- Sample data that mimics the expected final database structure or schema :white_check_mark:
-![db-screenshot-1](resources/md-imgs/data-summary.png)
 
-- Draft machine learning model is connected to the provisional database :white_check_mark:
-![db-screenshot-2](resources/md-imgs/dtypes-screenshot.png)
+## Database Integration (30 points)
 
-## Dashboard (0 points)
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_195)
 
-There are no deliverables associated with the dashboard for this segment.
+Team members present a fully integrated database:
+
+Database stores static data for use during the project ✅
+<img width="798" alt="Screen Shot 2021-05-06 at 6 23 46 PM" src="https://user-images.githubusercontent.com/74932178/117372841-3442ff00-ae98-11eb-98b5-851f9b88777d.png">
+
+Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) ✅
+<img width="993" alt="Screen Shot 2021-05-06 at 6 24 24 PM" src="https://user-images.githubusercontent.com/74932178/117372900-4ae95600-ae98-11eb-8c56-d6eac6e2f80e.png">
+
+
+Includes at least two tables ✅
+
+[Link to Github](https://github.com/jbenasuli/final_project/tree/database/dev/database/ERDs)
+
+Includes at least one join using the database language (not including any joins in Pandas) ✅
+
+<img width="840" alt="Screen Shot 2021-05-06 at 6 24 51 PM" src="https://user-images.githubusercontent.com/74932178/117372938-5b013580-ae98-11eb-9d8a-23e8108087c3.png">
+
+
+Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
+
+<img width="1054" alt="Screen Shot 2021-05-06 at 6 25 06 PM" src="https://user-images.githubusercontent.com/74932178/117372957-63597080-ae98-11eb-8c8a-df56806efbfd.png">
+
+General note: If you use a SQL database, you must provide your ERD with relationships. ✅
+
+Please see presentation slides for ERD. [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229)
+
+## Dashboard (15 points)
+
+A blueprint for the dashboard is created and includes all of the following:
+
+Storyboard on Google Slide(s) ✅
+
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd4bf7f7e4a_1_5)
+
+Description of the tool(s) that will be used to create final dashboard ✅
+
+[Link to document](https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit)
+
+Description of interactive element(s): ✅
+
+[Link to document](https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit)
+
+## Analysis and Insights
+
+- Draft document describing the questions we have worked on and insights we have so far ✅
+- [Link to document](https://docs.google.com/document/d/15iCBus6TBfVCmOw-nTj2KKg-ZvalTn0ShCdW_uw1PM0/edit)
+
