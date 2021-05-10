@@ -95,8 +95,6 @@ List of all active branches:
 - database
 - ml-model
 
-Note: branches were merged, deleted and recreated before submission.
-
 ## Machine Learning Model (30 points)
 
 Please see the [Machine Learning Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit) for information regarding the project's ML model processes
