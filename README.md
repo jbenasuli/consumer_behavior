@@ -115,6 +115,11 @@ Team members submit the code for their machine learning model, as well as the fo
 Database stores static data for use during the project ✅
 ![static-data](resources/md-imgs/static-data-v2.png)
 
+Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) ✅
+![db-connection](resources/md-imgs/db-connection-unsized.png)
+
+Includes at least two tables ✅
+![postgres-tables-list](resources/md-imgs/fp-pgadmin-tables-resized.png)
 ### Team members present a fully integrated database
 
 Database stores static data for use during the project ✅
