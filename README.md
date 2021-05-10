@@ -125,6 +125,12 @@ Includes at least two tables ✅
 Includes at least one join using the database language (not including any joins in Pandas) ✅
 ![join-query](resources/md-imgs/join-query-unsized.png)
 
+Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
+![connection-string](resources/md-imgs/connection-string-unsized.png)
+
+General note: If you use a SQL database, you must provide your ERD with relationships. ✅
+
+- Please see [presentation slide](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229) for ERDs
 ### Team members present a fully integrated database
 
 Database stores static data for use during the project ✅
