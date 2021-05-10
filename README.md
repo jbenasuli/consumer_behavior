@@ -99,6 +99,8 @@ Note: branches were merged, deleted and recreated before submission.
 
 ## Machine Learning Model (30 points)
 
+Please see the [Machine Learning Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit) for information regarding the project's ML model processes
+
 Team members submit the code for their machine learning model, as well as the following: ✅
 
 - Description of preliminary data preprocessing ✅
@@ -106,7 +108,6 @@ Team members submit the code for their machine learning model, as well as the fo
 - Description of how data was split into training and testing sets ✅
 - Explanation of model choice, including limitations and benefit ✅
 
-Please see the [Machine Learning Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit) for information regarding the project's ML model processes
 ## Database Integration (30 points)
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_195)
