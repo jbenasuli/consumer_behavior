@@ -110,10 +110,11 @@ Team members submit the code for their machine learning model, as well as the fo
 
 ## Database Integration (30 points)
 
-### Team members present a fully integrated database
+### Team members present a fully integrated database test
 
 Database stores static data for use during the project ✅
-![static-data](resources/md-imgs/static-data.png)
+![static-data](resources/md-imgs/static-data-v2.png)
+
 ### Team members present a fully integrated database
 
 Database stores static data for use during the project ✅
