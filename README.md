@@ -119,7 +119,12 @@ Database interfaces with the project in some format (e.g., scraping updates the 
 ![db-connection](resources/md-imgs/db-connection-unsized.png)
 
 Includes at least two tables ✅
+
 ![postgres-tables-list](resources/md-imgs/fp-pgadmin-tables-resized.png)
+
+Includes at least one join using the database language (not including any joins in Pandas) ✅
+![join-query](resources/md-imgs/join-query-unsized.png)
+
 ### Team members present a fully integrated database
 
 Database stores static data for use during the project ✅
