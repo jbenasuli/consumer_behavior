@@ -131,45 +131,25 @@ Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
 General note: If you use a SQL database, you must provide your ERD with relationships. ✅
 
 - Please see [presentation slide](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229) for ERDs
-### Team members present a fully integrated database
-
-Database stores static data for use during the project ✅
-<img width="798" alt="Screen Shot 2021-05-06 at 6 23 46 PM" src="https://user-images.githubusercontent.com/74932178/117372841-3442ff00-ae98-11eb-98b5-851f9b88777d.png">
-
-Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) ✅
-<img width="993" alt="Screen Shot 2021-05-06 at 6 24 24 PM" src="https://user-images.githubusercontent.com/74932178/117372900-4ae95600-ae98-11eb-8c56-d6eac6e2f80e.png">
-
-Includes at least two tables ✅
-![postgres-tables-list](resources/md-imgs/fp-pgadmin-tables-resized.png)
-
-Includes at least one join using the database language (not including any joins in Pandas) ✅
-<img width="840" alt="Screen Shot 2021-05-06 at 6 24 51 PM" src="https://user-images.githubusercontent.com/74932178/117372938-5b013580-ae98-11eb-9d8a-23e8108087c3.png">
-
-Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
-<img width="1054" alt="Screen Shot 2021-05-06 at 6 25 06 PM" src="https://user-images.githubusercontent.com/74932178/117372957-63597080-ae98-11eb-8c8a-df56806efbfd.png">
-
-General note: If you use a SQL database, you must provide your ERD with relationships. ✅
-
-- Please see [presentation slide](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229) for ERDs
 
 ## Dashboard (15 points)
 
-A blueprint for the dashboard is created and includes all of the following:
+### A blueprint for the dashboard is created and includes all of the following
 
 Storyboard on Google Slide(s) ✅
 
-[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd4bf7f7e4a_1_5)
+- [Google Slides](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd4bf7f7e4a_1_5)
 
 Description of the tool(s) that will be used to create final dashboard ✅
 
-[Link to document](https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit)
+- See [Dashboard Blueprint](https://github.com/jbenasuli/final_project/blob/main/dev/dashboard/Dashboard_Blueprint.pdf)
 
 Description of interactive element(s): ✅
 
-[Link to document](https://docs.google.com/document/d/1lPof0bc4AOgBFZfB7Lall5XLBZpl9NIVMYmQW-yhuiM/edit)
+- See [Dashboard Blueprint](https://github.com/jbenasuli/final_project/blob/main/dev/dashboard/Dashboard_Blueprint.pdf)
 
 ## Analysis and Insights
 
-- Draft document describing the questions we have worked on and insights we have so far ✅
-- [Link to document](https://docs.google.com/document/d/15iCBus6TBfVCmOw-nTj2KKg-ZvalTn0ShCdW_uw1PM0/edit)
+Draft document describing the questions we have worked on and insights we have so far ✅
 
+- [Group 1 Analysis Summary](https://github.com/jbenasuli/final_project/blob/main/Final_Project_Group1_Analysis_Summary.pdf)
