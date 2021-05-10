@@ -102,7 +102,6 @@ Note: branches were merged, deleted and recreated before submission.
 Team members submit the code for their machine learning model, as well as the following: ✅
 
 - Please see the [Machine Learning Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit) for more information regarding the project's ML model processes
-
 - Description of preliminary data preprocessing ✅
 - Description of preliminary feature engineering and preliminary feature selection, including their decision- making process ✅
 - Description of how data was split into training and testing sets ✅
