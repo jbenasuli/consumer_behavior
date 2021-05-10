@@ -2,13 +2,11 @@
 
 [Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
 
-[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
-
 ## Presentation (15 points)
 
-[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
+[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
 
-Content
+### Content
 
 The presentation outlines the project, including the following:
 
@@ -16,37 +14,43 @@ Selected topic: ✅
 
 - Ecommerce Consumer Behavior: An Investigation of Amazon’s Consumer Behavior
 
-- Reason they selected the topic: ✅
-  - Data analysis is key for strategic and well-informed decision making
-  - Big data allows e-commerce businesses to understand customers better through customer behavior analysis
-  - Helps target specific customers segments to upsell products, increase conversion rates and grows sales
-  - Better customer segmentation to improve targeted marketing campaigns and increase sales
-  - Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
+Reason they selected the topic: ✅
 
-- Description of the source of data: ✅
-  - Team will be publicly available customer review data from the Amazon Vine program.
+- Data analysis is key for strategic and well-informed decision making
+- Big data allows e-commerce businesses to understand customers better through customer behavior analysis
+- Helps target specific customers segments to upsell products, increase conversion rates and grows sales
+- Better customer segmentation to improve targeted marketing campaigns and increase sales
+- Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
 
-- Questions they hope to answer with the data: ✅
-  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
-  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
-  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
+Description of the source of data: ✅
 
-- Description of the data exploration phase of the project: ✅
-  - Each research question contains its own respective ETL process. Full details of the process are available on the presentation slides link:
-  - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0649fe845_0_64)
-  - Below is the ETL Process:
-    - Extract: Team extracted product or product segments from Amazon S3.
-    - Transform: Team loaded the data into a PySpark dataframe and performed preliminary cleaning in preparation to create a dataframe suitable for analysis.
-    - Load: The team downloaded Postgres driver that allows for Spark to interact with PostgresSQL, configured PostgresSQL settings, and wrote the cleaned tables into PostgresSQL.
+- All analysis is conducted using publicly available Amazon customer review data
+- Reviews from a number of product categories were selected from the list of available [US Reviews Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 
-- Description of the analysis phase of the project: ✅
-  - Please see ML Model document for further explanation: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
-  - Question #1: Can we predict which products a customer will most likely purchase together within various product segments? - Apriori Algorithm Association Analysis
+Questions they hope to answer with the data: ✅
 
-  - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns? - Unsupervised Learning K-Means Cluster Analysis
+- Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
+- Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
+- Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
 
-  - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?  - Natural Language Processing Topic Analysis
-  
+Description of the data exploration phase of the project: ✅
+
+- The ETL processes for each research question share a common structure which is summarized below
+- Details concerning the distinct procedures of each process can be found in the [presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0649fe845_0_64)
+- ETL Summary:
+  - Extract: Customer review datasets are extracted using the PySpark API and read into dataframes using the Spark SQL module
+  - Transform: Various PySpark methods are used to transform extracted data into static datasets suitable for analysis
+  - Load: Static datasets are loaded as tables into an AWS Postgres DB instance created for the project
+
+Description of the analysis phase of the project: ✅  
+
+- Question #1 is evaluated using Apriori Algorithm Association Analysis
+- Question #2 is evaluated using Unsupervised Learning K-Means Cluster Analysis
+- Question #3 is evaluated using Natural Language Processing Topic Analysis
+- For more information on the ML models used in the project, see [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
+
+### Slides
+
 Draft of Presentation Slides: ✅
 
 - [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
