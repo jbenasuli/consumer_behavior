@@ -68,8 +68,6 @@ The main branch should include:
 
 ### README.md
 
-All code in the master branch is production-ready :white_check_mark:
-
 The README.md must include:
 
 - Description of the communication protocols ✅
@@ -81,10 +79,11 @@ The README.md must include:
 
 Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
 
+### Individual Branches
+
 Requirements for the individual branches follow:
 
 - At least one branch for each team member ✅
-
 - Each team member has at least four commits for the duration of the second segment ✅
 
 List of all active branches:
@@ -102,7 +101,7 @@ Note: branches were merged, deleted and recreated before submission.
 
 Team members submit the code for their machine learning model, as well as the following: ✅
 
-- Please see Machine Learning Markdown document for more information: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
+- Please see the [Machine Learning Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit) for more information: [Link to document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit)
 
 - Description of preliminary data preprocessing ✅
 
