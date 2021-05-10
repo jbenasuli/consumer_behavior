@@ -110,9 +110,11 @@ Team members submit the code for their machine learning model, as well as the fo
 
 ## Database Integration (30 points)
 
-[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_195)
+### Team members present a fully integrated database
 
-Team members present a fully integrated database:
+Database stores static data for use during the project ✅
+![static-data](resources/md-imgs/static-data.png)
+### Team members present a fully integrated database
 
 Database stores static data for use during the project ✅
 <img width="798" alt="Screen Shot 2021-05-06 at 6 23 46 PM" src="https://user-images.githubusercontent.com/74932178/117372841-3442ff00-ae98-11eb-98b5-851f9b88777d.png">
@@ -120,23 +122,18 @@ Database stores static data for use during the project ✅
 Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) ✅
 <img width="993" alt="Screen Shot 2021-05-06 at 6 24 24 PM" src="https://user-images.githubusercontent.com/74932178/117372900-4ae95600-ae98-11eb-8c56-d6eac6e2f80e.png">
 
-
 Includes at least two tables ✅
-
-[Link to Github](https://github.com/jbenasuli/final_project/tree/database/dev/database/ERDs)
+![postgres-tables-list](resources/md-imgs/fp-pgadmin-tables-resized.png)
 
 Includes at least one join using the database language (not including any joins in Pandas) ✅
-
 <img width="840" alt="Screen Shot 2021-05-06 at 6 24 51 PM" src="https://user-images.githubusercontent.com/74932178/117372938-5b013580-ae98-11eb-9d8a-23e8108087c3.png">
 
-
 Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
-
 <img width="1054" alt="Screen Shot 2021-05-06 at 6 25 06 PM" src="https://user-images.githubusercontent.com/74932178/117372957-63597080-ae98-11eb-8c8a-df56806efbfd.png">
 
 General note: If you use a SQL database, you must provide your ERD with relationships. ✅
 
-Please see presentation slides for ERD. [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229)
+- Please see [presentation slide](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229) for ERDs
 
 ## Dashboard (15 points)
 
