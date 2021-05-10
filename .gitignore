@@ -4,6 +4,9 @@
 # local-files folder
 local-files/
 
+# local vs code settings
+.vscode/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
