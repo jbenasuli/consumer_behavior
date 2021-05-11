@@ -1,0 +1,4 @@
+segment,antecedentIds,antecedentNames,consequentIds,consequentNames,confidence
+Videos,"6304401132, 6303929338, 078881172X","Mulan, Hercules, Lion King",788812408,Alladin,1
+Videos,"6304401132, 6303929338","Mulan, Hercules","078881172X, 0788812408","Alladin, Little Mermaid",1
+Videos,"6303929338, 0788812408","Mulan, Hercules","6304401132, 078881172X","Alladin, Little Mermaid",1

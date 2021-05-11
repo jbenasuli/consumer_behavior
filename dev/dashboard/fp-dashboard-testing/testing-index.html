@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 Dashboard</title>
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="apriori-static/css/style.css">
+
+</head>
+<body class="bg-dark">
+    <div class="wrapper">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="index.html">Viz Homepage</a>
+      </nav>
+    </div>
+    <div class="jumbotron">
+      <h1 class="display-4" style="color: #e100ff";>Question 1</h1>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4">
+          <h3>Apriori Analysis</h3>
+          <h4>Item Association by Segment</h4>
+        </div>
+        <div class="col-md-8">
+          <p>
+          This can contain a summary overview on apriori results!
+          </p>
+        </div>        
+      </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3">
+        <form class="bg-dark">
+          <p style="color: #ec3030";>Filter Search</p>
+          <ul class="list-group bg-dark">
+            <li class="list-group-item bg-dark">
+              <label for="Videos">Enter Segment</label>
+              <input type="text" placeholder="Videos" id="segment" />
+            </li>
+            <li class="list-group-item bg-dark">
+              <button id="filter-btn" type="button" class="btn btn-dark">
+                Filter Table
+              </button>            
+            </li>
+          </ul>
+        </form>
+      </div>
+      <div class="col-md-9">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+                <th>Segment</th>
+                <th>Antecedent IDs</th>
+                <th>Antecedent Names</th>
+                <th>Consequent IDs</th>
+                <th>Consequent Names</th>
+                <th>Confidence</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="apriori-static/js/data.js"></script>
+  <script src="apriori-static/js/table-button-filter.js"></script>
+        
+</body>
+</html>
