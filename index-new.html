@@ -1,94 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Group 1 Dashboard</title>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-        crossorigin="anonymous"
-      />
-      <!-- pyLDAvis stylesheet -->
-      <link 
-        rel="stylesheet" 
-        type="text/css" 
-        href="https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.3.1/pyLDAvis/js/ldavis.v1.0.0.css"
-      />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <!-- pyLDAvis stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.3.1/pyLDAvis/js/ldavis.v1.0.0.css" />
+    <link rel="stylesheet" type="text/css" href="deployment/css/style.css" />
 </head>
+
 <body>
     <div class="wrapper">
         <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-        <a class="navbar-brand" href="index.html">Viz Homepage</a>
+            <a class="navbar-brand" href="index.html">Viz Homepage</a>
         </nav>
     </div>
     <div class="jumbotron">
-        <h1 class="display-4" style="color: #e100ff";>Analyzing Consumer Behavior</h1>
+        <h1 class="display-4" ;>Analyzing Consumer Behavior</h1>
     </div>
     <div class="container-fluid">
-        <div class="row" style="color: #1eff00";>
-        <div class="col-md-4">
-            <h3>Apriori Analysis</h3>
-            <h4>Item Association by Segment</h4>
-        </div>
-        <div class="col-md-8">
-            <p>
-            This can contain a summary overview on apriori results!
-            </p>
-        </div>        
+        <div class="row" style="color: #1eff00" ;>
+            <div class="col-md-4">
+                <h3>Apriori Analysis</h3>
+                <h4>Item Association by Segment</h4>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    This can contain a summary overview on apriori results!
+                </p>
+            </div>
         </div>
     </div>
     <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3">
-        <form class="bg-dark">
-            <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" 
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Segment
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Apparel</a>
-                <a class="dropdown-item" href="#">Furniture</a>
-                <a class="dropdown-item" href="#">Music</a>
-                <a class="dropdown-item" href="#">Office Products</a>
-                <a class="dropdown-item" href="#">Personal Care Appliances</a>
-                <a class="dropdown-item" href="#">Video Games</a>
-                <a class="dropdown-item" href="#">Videos</a>
-                <a class="dropdown-item" href="#">Watches</a>
+        <div class="row">
+            <div class="col-md-3">
+                <form class="button-form">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Segment
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Apparel</a>
+                            <a class="dropdown-item" href="#">Furniture</a>
+                            <a class="dropdown-item" href="#">Music</a>
+                            <a class="dropdown-item" href="#">Office Products</a>
+                            <a class="dropdown-item" href="#">Personal Care Appliances</a>
+                            <a class="dropdown-item" href="#">Video Games</a>
+                            <a class="dropdown-item" href="#">Videos</a>
+                            <a class="dropdown-item" href="#">Watches</a>
+                        </div>
+                    </div>
+                </form>
             </div>
+            <div class="col-md-9">
+                <table class="table table-striped">
+                    <thead style="color: rgb(248, 248, 250)">
+                        <tr>
+                            <th>Segment</th>
+                            <th>Antecedent IDs</th>
+                            <th>Antecedent Names</th>
+                            <th>Consequent IDs</th>
+                            <th>Consequent Names</th>
+                            <th>Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody style="color: rgb(0, 81, 255)"></tbody>
+                </table>
             </div>
-        </form>
-        </div>
-        <div class="col-md-9">
-        <table class="table table-striped">
-            <thead style="color: rgb(248, 248, 250)">
-            <tr>
-                <th>Segment</th>
-                <th>Antecedent IDs</th>
-                <th>Antecedent Names</th>
-                <th>Consequent IDs</th>
-                <th>Consequent Names</th>
-                <th>Confidence</th>
-            </tr>
-            </thead>
-            <tbody style="color: rgb(0, 81, 255)"></tbody>
-        </table>
-        </div>
         </div>
     </div>
-    <div class="container-fluid"; style="background-color: rgb(176, 211, 241);">
+    <div class="container-fluid" ; style="background-color: rgb(176, 211, 241);">
         <div class="row">
             <div class="col-md-12">
                 <h2 style="color: rgb(255, 0, 255)">KMeans</h2>
                 <!-- plotly viz goes here -->
-            </div>      
-        </div>   
-    </div>   
-    <div class="container-fluid"; style="background-color: rgb(176, 211, 241);">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" ; style="background-color: rgb(176, 211, 241);">
         <div class="row">
             <div class="col-md-12">
                 <h2 style="color: rgb(0, 81, 255)">5 STAR LDA</h2>
@@ -96,39 +91,39 @@
                 <div id="five_star_LDA"></div>
 
 
-            </div>      
+            </div>
         </div>
     </div>
-    <div class="container-fluid"; style="background-color: rgb(176, 211, 241);">
+    <div class="container-fluid" ; style="background-color: rgb(176, 211, 241);">
         <div class="row">
             <div class="col-md-12">
                 <h2 style="color: rgb(0, 81, 255)">1 STAR LDA</h2>
                 <!-- LDA Viz 2 Goes here -->
-                <div id="ldavis_el793758961123848969521687"></div>
-            </div>      
+                <div id="one_star_LDA"></div>
+            </div>
         </div>
     </div>
-        <!-- add jquery js, popper js and boostrap js libraries to render filter button     -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-                crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
-                integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
-                crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
-                integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
-                crossorigin="anonymous">
-        </script>  
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-        <script src="plotly-latest.min.js"></script>
-        <script src="deployment/apriori/apriori_sample_data.js"></script>
-        <script src="deployment/apriori/apriori_results_table.js"></script>
-        <!-- enter src paths when complete -->
-        <script src="topic-analysis/chart.js"></script>
-        <script src="topic-analysis/data.js"></script>
-        <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="plotly-latest.min.js"></script>
+    <script src="deployment/apriori/apriori_sample_data.js"></script>
+    <script src="deployment/apriori/apriori_results_table.js"></script>
+    <!-- enter src paths when complete -->
+    <script src="deployment/topic-analysis/chart.js"></script>
+    <script src="deployment/topic-analysis/data.js"></script>
+    <script type="text/javascript">
+        window.PlotlyConfig = {
+            MathJaxConfig: 'local'
+        };
+    </script>
+    <script type="text/javascript"></script>
 
-    </body>
+</body>

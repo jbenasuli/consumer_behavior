@@ -1,6 +1,8 @@
+
 body {
 
     color: #08abeb;
+    background-color: #fff;
   }
   .jumbotron {
     /* background-image: url(); */
@@ -8,4 +10,5 @@ body {
     text-align: center;
     background-color: rgb(47, 255, 64);
     text-shadow: darkslateblue;
+    color: #000000;
   }
