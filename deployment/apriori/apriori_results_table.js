@@ -26,13 +26,13 @@ function buildTable(data) {
 
 function handleClick() {
   // // grab the segment value from the filter
-    let category = this.text;
+    let segment = this.text;
     let filteredData = tableData;
     
     // check to see if a date was entered and filter
-    if (category) {
+    if (segment) {
         // apply filter where 'segment' value matches filter date
-        filteredData = filteredData.filter(row => row.category === category);
+        filteredData = filteredData.filter(row => row.segment === segment);
       }
     // call buildTable function on filtered data
     buildTable(filteredData);
