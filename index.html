@@ -27,9 +27,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
                     <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-link" href="#">Apriori Analysis</a>
-                    <a class="nav-link" href="#">Segmentation Analysis</a>
-                    <a class="nav-link" href="#">Topic Analysis</a>
+                    <a class="nav-link" href="#AA">Apriori Analysis</a>
+                    <a class="nav-link" href="#SA">Segmentation Analysis</a>
+                    <a class="nav-link" href="#TA">Topic Analysis</a>
         </nav>
     </div>
     <div class="jumbotron">
@@ -38,7 +38,7 @@
     <div class="container-fluid">
         <div class="row" style="color: #000000";>
             <div class="col-md-4">
-                <h3>Apriori Analysis</h3>
+                <h3 id="AA">Apriori Analysis</h3>
                 <h4>Item Association by Segment</h4>
             </div>
             <div class="col-md-8">
@@ -100,28 +100,43 @@
     <div class="container-fluid" ; style="background-color: #FCFCFC;">
         <div class="row pt-md-5">
             <div class="col-md-12">
-                <h2 style="color: #000000">KMeans</h2>
+                <h1 id="SA">Segmentation Analysis</h1>
                 <!-- plotly viz goes here -->
             </div>
         </div>
     </div>
-    <div class="jumbotron jumbotron-special">
-        <div id="secondJBox">
+    <div class="container-fluid" ; style="background-color: #f0e2e2;">
+        <div class="row pt-md-5">
+            <div class="col-md-12">
+    <!-- <div class="jumbotron jumbotron-special">
+        <div id="secondJBox"> -->
+            <h1 id="TA">Topic Analysis</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h2 style="color: rgb(0, 81, 255)">5 STAR LDA</h2>
+            <img src="deployment/topic-analysis/5_star_word_cloud.png" class="img-fluid" alt="5-star-world-cloud">
         </div>
     </div>
     <div class="container-fluid" ; style="background-color: #f3f2f2;">
         <div class="row pt-md-5">
             <div class="col-md-12">
-                <h2 style="color: rgb(0, 81, 255)">5 STAR LDA</h2>
-                <!-- LDA Viz 1 Goes here -->
+                <!-- LDA Viz for 5 Star Goes here -->
                 <div id="five_star_LDA"></div>
             </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h2 style="color: rgb(255, 0, 119)">1 STAR LDA</h2>
+            <img src="deployment/topic-analysis/1_star_word_cloud.png" class="img-fluid" alt="1-star-world-cloud">
         </div>
     </div>
     <div class="container-fluid" ; style="background-color: rgb(176, 211, 241);">
         <div class="row">
             <div class="col-md-12">
-                <h2 style="color: rgb(0, 81, 255)">1 STAR LDA</h2>
                 <!-- LDA Viz 2 Goes here -->
                 <div id="one_star_LDA"></div>
             </div>
