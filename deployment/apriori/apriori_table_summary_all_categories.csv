@@ -1,4 +1,4 @@
-Category,Antecedents ID,Antecedents Names,Consequents IDS,Consequents Names,confidence
+Category,Antecedents ID,Antecedents Names,Consequents IDS,Consequents Names,Confidence
 Videos,"0788802194, 0788812408, 0788812807","Cinderella [VHS], The Little Mermaid [VHS], Lady and the Tramp [VHS]","6304401132, 0788805533, 0788806270","Sleeping Beauty [VHS], The Lion King II [VHS], Bambi [VHS]",1
 Videos,"0788812408, 155890641X, 0788802194, 6304401132, 0788812807","The Little Mermaid [VHS], Snow White and the Seven Dwarfs [VHS], Cinderella [VHS],  Sleeping Beauty [VHS], Lady and the Tramp [VHS]",6300274195,Dumbo [VHS],1
 Music,"B007ZRZWOA, B001BKVWYG","Searching For Sugar Man, Cold Fact",B001TCHDPS,Coming from Reality,0.815384615
