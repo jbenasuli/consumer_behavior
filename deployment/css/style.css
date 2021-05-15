@@ -4,7 +4,7 @@
     background-color: #fff;
   } */
   .jumbotron {
-    text-align: center;
+    text-align: center !important;
     text-shadow: darkslateblue;
     color: #000000;
     }
@@ -34,10 +34,10 @@ h2 {
 }
 
 .img-class {
-    background: none;
-    border: none;
+    background: none!important;
+    border: none !important;
 }
-}
+
 /* jumbotron-special.secondJBox{
     width:100%;
     height: 50px;
