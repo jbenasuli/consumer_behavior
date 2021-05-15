@@ -22,7 +22,7 @@
     padding-top: 0px;
   }
 
-  hr {
+  hr.section-break {
     color:grey;
     background-color: grey;
     display: block;
