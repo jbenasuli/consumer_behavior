@@ -134,19 +134,17 @@ General note: If you use a SQL database, you must provide your ERD with relation
 
 ## Dashboard (15 points)
 
-### A blueprint for the dashboard is created and includes all of the following
+[Dashboard Link](https://jbenasuli.github.io/final_project/#)
 
-Storyboard on Google Slide(s) ✅
+### Dashboard Images
 
-- [Google Slides](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd4bf7f7e4a_1_5)
+- Images from Initial Analysis: ✅
 
-Description of the tool(s) that will be used to create final dashboard ✅
+### Dashboard Storyboard
 
-- See [Dashboard Blueprint](https://github.com/jbenasuli/final_project/blob/main/dev/dashboard/Dashboard_Blueprint.pdf)
-
-Description of interactive element(s): ✅
-
-- See [Dashboard Blueprint](https://github.com/jbenasuli/final_project/blob/main/dev/dashboard/Dashboard_Blueprint.pdf)
+- Data (images or report) from the machine learning task: ✅
+- Dashboard presents a data story that is logical and easy to follow for someone unfamiliar with the topic: ✅
+- At least one interactive element: ✅
 
 ## Analysis and Insights
 
