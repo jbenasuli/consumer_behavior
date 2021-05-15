@@ -51,9 +51,6 @@ Description of the analysis phase of the project: ✅
 
 Description of Technologies, language, tools, and algorithms used throughout the project: ✅
 
-- [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
-- [Technologies.md](https://docs.google.com/document/d/1NCCr7Rpa6DNB_FJBBpWnX0Wne15rGrLGPS0ur2K8JcY/edit#heading=h.a26a68f5ufzo)
-
 ### Slides
 
 Draft of Presentation Slides: ✅
