@@ -5,14 +5,11 @@
     color: #08abeb;
     background-color: #fff;
   } */
-  /* .jumbotron {
-    /* background-image: url(); */
-    /* background-size: ; */
-    /* text-align: center;
-    background-color: rgb(47, 255, 64);
+  .jumbotron {
+    text-align: center;
     text-shadow: darkslateblue;
-    color: #000000; */
-  /* } */ 
+    color: #000000;
+    }
 
   /* thead
   tbody
@@ -28,8 +25,19 @@
     opacity: 0.7;
     text-align: center;
 }
+h1 {
+  text-align: center;
+  font: arial;
+
+}
 
 
+h2 { 
+  text-align: left;
+  color: black;
+
+
+}
 
 /* jumbotron-special.secondJBox{
     width:100%;
