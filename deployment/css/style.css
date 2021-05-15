@@ -1,5 +1,3 @@
-
-
 /* body {
 
     color: #08abeb;
@@ -28,17 +26,18 @@
 h1 {
   text-align: center;
   font: arial;
-
 }
-
 
 h2 { 
   text-align: left;
   color: black;
-
-
 }
 
+.img-class {
+    background: none;
+    border: none;
+}
+}
 /* jumbotron-special.secondJBox{
     width:100%;
     height: 50px;
