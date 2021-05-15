@@ -20,6 +20,7 @@
   #special-container {
     padding-bottom: 0px;
     padding-top: 0px;
+    margin-bottom: -75px !important;
   }
 
   hr.section-break {
