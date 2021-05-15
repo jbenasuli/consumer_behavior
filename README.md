@@ -64,23 +64,17 @@ Draft of Presentation Slides: ✅
 
 ### Main Branch
 
-All code in the main branch is production ready ✅
-
 The main branch should include:
 
-- All code necessary to perform exploratory analysis ✅
-- Some code necessary to complete the machine learning portion of the project ✅
+- All code necessary to perform exploratory analysis: ✅
+- Some code necessary to complete the machine learning portion of the project: ✅
 
 ### README.md
 
 The README.md must include:
 
-- Description of the communication protocols ✅
-  - Team members communicate primarily via slack
-  - Questions and comments are also relayed by leveraging the Google Apps' comments tool
-  - Deliverables and issues are tracked in the team's google sheet to ensure all team members are aligned on the status of all the project's component parts
-  
-- Outline of the project (this may include images, but should be easy to follow and digest) ✅
+- Outline of the project (this may include images, but should be easy to follow and digest): ✅
+- Cohesive, structured outline of the project (this may include images, but should be easy to follow and digest): ✅
 
 Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
 
@@ -88,7 +82,6 @@ Note: The descriptions and explanations required in all other project deliverabl
 
 Requirements for the individual branches follow:
 
-- At least one branch for each team member ✅
 - Each team member has at least four commits for the duration of the second segment ✅
 
 List of all active branches:
@@ -106,12 +99,16 @@ Please see the [Machine Learning Models document](https://docs.google.com/docume
 
 Team members submit the code for their machine learning model, as well as the following: ✅
 
-- Description of preliminary data preprocessing ✅
-- Description of preliminary feature engineering and preliminary feature selection, including their decision- making process ✅
-- Description of how data was split into training and testing sets ✅
-- Explanation of model choice, including limitations and benefit ✅
+- Description of data preprocessing: ✅
+- Description of feature engineering and the feature selection, including their decision making process: ✅
+- Description of how data was split into training and testing sets: ✅
+- Explanation of model choice, including limitations and benefit: ✅
+- Description of how they have trained the model thus far, and any additional training that will take place: ✅
+- Description of current accuracy score: ✅
 
-## Database Integration (30 points)
+## Database Integration
+
+- N/A for Segment 3
 
 ### Team members present a fully integrated database test
 
