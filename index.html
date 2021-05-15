@@ -28,7 +28,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <!-- took out "home" text - look to force refresh on home click -->
+                    <a class="nav-link active" href="#"> <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#AA">Apriori Analysis</a>
                     <a class="nav-link" href="#SA">Segmentation Analysis</a>
                     <a class="nav-link" href="#TA">Topic Analysis</a>
@@ -37,10 +38,34 @@
     <div class="jumbotron jumbotron-fluid">
         <h1 class="display-4";>Analyzing Consumer Behavior</h1>
     </div>
+    <!-- test altenerate section heading -->
+    <div class="section-head">
+        <h2 id="altintro">Introduction</h2>
+            <p>If we take just text out sections out of the container it might be better.
+            <br>This might look cleaner to people, but idk because web dev is a mystery.
+            </p>
+    </div>
+    <hr>
     <div class="container-fluid">
-        <div class="row" style="color: #000000";>
+        <div class="row";>
             <div class="col-md-4">
-                <h3 id="AA">Apriori Analysis</h3>
+                <!-- add intro section -->
+                <h2 id="intro">Introduction</h2>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    This can contain a short intro!<br>
+                    I think I'm going to delete this!
+                </p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row";>
+            <div class="col-md-4">
+
+                <h2 id="AA">Apriori Analysis</h2>
                 <h4>Item Association by Segment</h4>
             </div>
             <div class="col-md-8">
@@ -93,56 +118,51 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container-fluid">
-        <div class="row">
+    <hr>
+    <div class="section-head">
+        <h2 id="SA">Segmentation Analysis</h2>
+            <p>If we take just text out sections out of the container it might be better.
+            <br>This might look cleaner to people, but idk because web dev is a mystery.
+            </p>
+    </div>
+    <div class="container-fluid">
+        <div class="row";>
             <div class="col-md-12">
-            </div>
-        </div>
-    </div>             -->
-    <div class="container-fluid" ; style="background-color: #FCFCFC;">
-        <div class="row pt-md-5">
-            <div class="col-md-12">
-                <h1 id="SA">Segmentation Analysis</h1>
                 <!-- plotly viz goes here -->
                 <div id="graph-kmeans-v2"></div>
             </div>
         </div>
     </div>
-    <div class="container-fluid" ; style="background-color: #f0e2e2;">
-        <div class="row pt-md-5">
-            <div class="col-md-12">
-    <!-- <div class="jumbotron jumbotron-special">
-        <div id="secondJBox"> -->
-            <h1 id="TA">Topic Analysis</h1>
-            </div>
+    <hr>
+    <div class="section-head">
+        <h2 id="TA">Topic Analysis</h2>
+            <p>If we take just text out sections out of the container it might be better.
+            <br>This might look cleaner to people, but idk because web dev is a mystery.
+            </p>
+    </div>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h3>5 Star Reviews</h3>
+            <img id="cloud" src="deployment/topic-analysis/5_star_word_cloud_white_nb.png" class="img-fluid" alt="5-star-world-cloud">
+        </div>
+    </div>
+    <div class="container-fluid" id=special-container>
+        <div class="col-md-12">
+            <h3>5 Star LDA</h3>
+            <div id="five_star_LDA"></div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="col-md-12">
-            <h2>5 STAR LDA</h2>
-            <img src="deployment/topic-analysis/5_star_word_cloud_white_nb.png" class="img-fluid" alt="5-star-world-cloud">
-        </div>
-    </div>
-    <div class="container-fluid" ; style="background-color: #f3f2f2;">
-        <div class="row pt-md-5">
-            <div class="col-md-12">
-                <!-- LDA Viz for 5 Star Goes here -->
-                <div id="five_star_LDA"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="col-md-12">
-            <h2>1 STAR LDA</h2>
+            <h3>1 Star Reviews</h3>
             <img src="deployment/topic-analysis/1_star_word_cloud_white_nb.png" class="img-fluid" alt="1-star-world-cloud">
         </div>
     </div>
-    <div class="container-fluid" ; style="background-color: #f7f0f0;">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- LDA Viz 2 Goes here -->
-                <div id="one_star_LDA"></div>
-            </div>
+    <div class="container-fluid" id=special-container>
+        <div class="col-md-12">
+            <h3>1 Star LDA</h3>
+            <div id="one_star_LDA"></div>
+        </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
