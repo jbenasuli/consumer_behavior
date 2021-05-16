@@ -49,7 +49,7 @@
 - Question #1 is evaluated using Apriori Algorithm Association Analysis
   - The analysis for Apparel, Furniture, Music and Office Products is contained in [this notebook](https://github.com/jbenasuli/final_project/blob/main/Apriori-Apparel_Furniture_Music_Office.ipynb)
   - The analysis for Personal Care Applicances, Video Games, Videos and Watches is contained in [this notebook](https://github.com/jbenasuli/final_project/blob/main/Apriori-PersonalCare_VideoGames_Videos_Watches.ipynb)
-- Question #2 is evaluated using Unsupervised Learning [K-Means Cluster Analysis](https://github.com/jbenasuli/final_project/blob/main/KMeans-Customer_Segmentation.ipynb))
+- Question #2 is evaluated using Unsupervised Learning [K-Means Cluster Analysis](https://github.com/jbenasuli/final_project/blob/main/KMeans-Customer_Segmentation.ipynb)
 - Question #3 is evaluated using Natural Language Processing [Topic Analysis](https://github.com/jbenasuli/final_project/blob/main/Topic_Analysis-Airmattress.ipynb)
 - For more information on the ML models used in the project, see [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
 
