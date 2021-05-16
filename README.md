@@ -27,6 +27,13 @@
 
 ## Data & Technologies
 
+### Languages
+
+- Python
+- JS
+- HTML
+- SQL
+
 ### Data Exploration
 
 - The ETL processes for each research question share a common structure which is summarized below
@@ -43,9 +50,7 @@
 - Question #3 is evaluated using Natural Language Processing Topic Analysis
 - For more information on the ML models used in the project, see [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
 
-### Info & Requirements
-
-Description of Technologies, language, tools, and algorithms used throughout the project
+A full list of requirements can be found in the [requirments.txt](link-to-file) document
 
 ## Analysis and Insights
 
