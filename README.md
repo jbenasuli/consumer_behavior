@@ -1,20 +1,12 @@
-# final_project
-
-[Link to project tracker](https://docs.google.com/spreadsheets/d/1WJBlla5ap6cchO12OfbjRwCKj17eBbcxXQNUqc3g52o/edit#gid=2063972108)
+# Analyzing Ecommerce Consumer Behavior through Amazon Reviews
 
 ## Presentation (15 points)
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
 
-### Content
+## Overview
 
-The presentation outlines the project, including the following:
-
-Selected topic: ✅
-
-- Ecommerce Consumer Behavior: An Investigation of Amazon’s Consumer Behavior
-
-Reason they selected the topic: ✅
+### Background
 
 - Data analysis is key for strategic and well-informed decision making
 - Big data allows e-commerce businesses to understand customers better through customer behavior analysis
@@ -22,18 +14,27 @@ Reason they selected the topic: ✅
 - Better customer segmentation to improve targeted marketing campaigns and increase sales
 - Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
 
-Description of the source of data: ✅
+### Source data
 
 - All analysis is conducted using publicly available Amazon customer review data
 - Reviews from a number of product categories were selected from the list of available [US Reviews Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 
-Questions they hope to answer with the data: ✅
+### Research Questions
 
 - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
 - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
 - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
 
-Description of the data exploration phase of the project: ✅
+## Data & Technologies
+
+### Languages
+
+- Python
+- JS
+- HTML
+- SQL
+
+### Data Exploration
 
 - The ETL processes for each research question share a common structure which is summarized below
 - Details concerning the distinct procedures of each process can be found in the [presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0649fe845_0_64)
@@ -41,113 +42,29 @@ Description of the data exploration phase of the project: ✅
   - Extract: Customer review datasets are extracted using the PySpark API and read into dataframes using the Spark SQL module
   - Transform: Various PySpark methods are used to transform extracted data into static datasets suitable for analysis
   - Load: Static datasets are loaded as tables into an AWS Postgres DB instance created for the project
+- Copies of the Google Colab notebooks used can be found in the [dev/database/Amazon_Vine-PySpark-ETLs](https://github.com/jbenasuli/final_project/tree/main/dev/database/Amazon_Vine-PySpark-ETLs) directory
 
-Description of the analysis phase of the project: ✅  
+### Machine Learning Models
 
 - Question #1 is evaluated using Apriori Algorithm Association Analysis
-- Question #2 is evaluated using Unsupervised Learning K-Means Cluster Analysis
-- Question #3 is evaluated using Natural Language Processing Topic Analysis
+  - The analysis for Apparel, Furniture, Music and Office Products is contained in [this notebook](https://github.com/jbenasuli/final_project/blob/main/Apriori-Apparel_Furniture_Music_Office.ipynb)
+  - The analysis for Personal Care Applicances, Video Games, Videos and Watches is contained in [this notebook](https://github.com/jbenasuli/final_project/blob/main/Apriori-PersonalCare_VideoGames_Videos_Watches.ipynb)
+- Question #2 is evaluated using Unsupervised Learning [K-Means Cluster Analysis](https://github.com/jbenasuli/final_project/blob/main/KMeans-Customer_Segmentation.ipynb)
+- Question #3 is evaluated using Natural Language Processing [Topic Analysis](https://github.com/jbenasuli/final_project/blob/main/Topic_Analysis-Airmattress.ipynb)
 - For more information on the ML models used in the project, see [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
 
-### Slides
-
-Draft of Presentation Slides: ✅
-
-- [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd0128d9d41_0_4)
-
-## GitHub Repository (10 points)
-
-### Main Branch
-
-All code in the main branch is production ready ✅
-
-The main branch should include:
-
-- All code necessary to perform exploratory analysis ✅
-- Some code necessary to complete the machine learning portion of the project ✅
-
-### README.md
-
-The README.md must include:
-
-- Description of the communication protocols ✅
-  - Team members communicate primarily via slack
-  - Questions and comments are also relayed by leveraging the Google Apps' comments tool
-  - Deliverables and issues are tracked in the team's google sheet to ensure all team members are aligned on the status of all the project's component parts
-  
-- Outline of the project (this may include images, but should be easy to follow and digest) ✅
-
-Note: The descriptions and explanations required in all other project deliverables should also be your README.md as part of your outline unless otherwise noted ✅
-
-### Individual Branches
-
-Requirements for the individual branches follow:
-
-- At least one branch for each team member ✅
-- Each team member has at least four commits for the duration of the second segment ✅
-
-List of all active branches:
-
-- main
-- markdowns
-- resources
-- dashboard
-- database
-- ml-model
-
-## Machine Learning Model (30 points)
-
-Please see the [Machine Learning Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit) for information regarding the project's ML model processes
-
-Team members submit the code for their machine learning model, as well as the following: ✅
-
-- Description of preliminary data preprocessing ✅
-- Description of preliminary feature engineering and preliminary feature selection, including their decision- making process ✅
-- Description of how data was split into training and testing sets ✅
-- Explanation of model choice, including limitations and benefit ✅
-
-## Database Integration (30 points)
-
-### Team members present a fully integrated database test
-
-Database stores static data for use during the project ✅
-![static-data](resources/md-imgs/static-data-v2.png)
-
-Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model) ✅
-![db-connection](resources/md-imgs/db-connection-unsized.png)
-
-Includes at least two tables ✅
-
-![postgres-tables-list](resources/md-imgs/fp-pgadmin-tables-resized.png)
-
-Includes at least one join using the database language (not including any joins in Pandas) ✅
-![join-query](resources/md-imgs/join-query-unsized.png)
-
-Includes at least one connection string (using SQLAlchemy or PyMongo) ✅
-![connection-string](resources/md-imgs/connection-string-unsized.png)
-
-General note: If you use a SQL database, you must provide your ERD with relationships. ✅
-
-- Please see [presentation slide](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd6fa5732b4_8_229) for ERDs
-
-## Dashboard (15 points)
-
-### A blueprint for the dashboard is created and includes all of the following
-
-Storyboard on Google Slide(s) ✅
-
-- [Google Slides](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit#slide=id.gd4bf7f7e4a_1_5)
-
-Description of the tool(s) that will be used to create final dashboard ✅
-
-- See [Dashboard Blueprint](https://github.com/jbenasuli/final_project/blob/main/dev/dashboard/Dashboard_Blueprint.pdf)
-
-Description of interactive element(s): ✅
-
-- See [Dashboard Blueprint](https://github.com/jbenasuli/final_project/blob/main/dev/dashboard/Dashboard_Blueprint.pdf)
+A full list of requirements can be found in the [requirments.txt](link-to-file) document
 
 ## Analysis and Insights
 
-Draft document describing the questions we have worked on and insights we have so far ✅
+### Results Summary
 
 - [Group 1 Analysis Summary](https://github.com/jbenasuli/final_project/blob/main/Final_Project_Group1_Analysis_Summary.pdf)
+
+### Results Vizulization
+
+[Project Dashboard](https://jbenasuli.github.io/final_project/)
+
+### Proposal for Further Study
+
+Enter idea here.
