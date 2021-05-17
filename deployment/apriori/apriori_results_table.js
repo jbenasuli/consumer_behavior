@@ -46,3 +46,5 @@ d3.selectAll(".dropdown-item").on("click", handleClick);
 // build table when the page loads
 buildTable(tableData);
 
+// navigate to apriori analysis section on build
+
