@@ -41,14 +41,28 @@
     <!-- test altenerate section heading -->
     <div class="section-head">
         <h2 id="altintro">Introduction</h2>
-            <p>If we take just text out sections out of the container it might be better.
-            <br>This might look cleaner to people, but idk because web dev is a mystery.
+            <p>Introduction
+                This page contains summary results and visualizations of our study into consumer behavior. 
+                In order to gain insight into how big data can offer ecommerce companies greater opportunity to drive sales and revenue, 
+                we leveraged machine learning algorithms to analyze Amazon customer data.<br>
+                Our research had 3 goals:
+                <ol>
+                    <li>Develop a list of items frequently bought together</li>
+                    <li>Create customer segments based on product categories purchased</li>
+                    <li>Build a model to identify main topics included in the customer reviews of a product</li>
+                </ol> 
             </p>
     </div>
     <hr class="section-break">
     <div class="section-head">
         <h2 id="AA">Apriori Analysis</h2>
     </div>
+    <hr>
+        <p>
+            The Apriori algorithm is used for mining frequent item sets and relevant association rules from relational databases. 
+            The parameters “support” and “confidence” are utilized, support are the items’ frequency of occurrence and confidence is a conditional probability. 
+            The goal of the analysis is to identify items bought together and show them in the ecommerce website to increase cross sell and sales.
+        </p>
     <hr>
     <div class="container-fluid">
         <div class="row";>
@@ -82,8 +96,11 @@
                 <h4>Item Association by Segment</h4>
             </div>
             <div class="col-md-8">
+                
                 <p>
-                    This can contain a summary overview on apriori results!
+                    In the table below, the top 2 results of each product category are shown. 
+                    Only music and videos had a confidence higher than 60%, but since the only downside is showing recommendations that a consumer might not 
+                    have interest on and the upside is increased sales, the risk is low of showing results with lower confidence.
                 </p>
             </div>
         </div>
@@ -134,8 +151,21 @@
     <hr class="section-break">
     <div class="section-head">
         <h2 id="SA">Segmentation Analysis</h2>
-            <p>If we take just text out sections out of the container it might be better.
-            <br>This might look cleaner to people, but idk because web dev is a mystery.
+            <p>
+                Based on data of eight different product categories; apparel, furniture, music, watches, personal care, office products, video and video games; 
+                the data was consolidated based on the product quantities bought from each segment by customer. The K-means cluster analysis was the machine learning used, 
+                since it is an unsupervised model that groups data into clusters, or in this case, customer segments.
+            </p>
+            <p>
+                As visualized below, five customers segments were identified:
+                    <ol>
+                        <li>Cluster 0: apparel products,</li>
+                        <li>Cluster 1: personal care appliances</li>
+                        <li>Cluster 2: furniture</li>
+                        <li>Cluster 3: office products</li>
+                        <li>Cluster 4: multi-category</li>
+                    </ol>
+                Based on the results of this segmentation, better marketing campaigns can be targeted for single-category
             </p>
     </div>
     <div class="container-fluid">
@@ -149,8 +179,22 @@
     <hr class="section-break">
     <div class="section-head">
         <h2 id="TA">Topic Analysis</h2>
-            <p>If we take just text out sections out of the container it might be better.
-            <br>This might look cleaner to people, but idk because web dev is a mystery.
+            <p>
+                For this analysis one specific product was selected, Product ID B000M0MJU2, an air mattress. 
+                The Latent Dirichlet Allocation (LDA) machine learning model was used to identify topics with the customer reviews. 
+                To better interpret the data, the analysis was split into bad (1-star) and good (5-stars) reviews.
+            </p>
+            <p>
+                The bubble charts below represent the output of the analysis, each bubble represents a different topic, the larger the bubble, 
+                the higher percentage of the number of reviews in the corpus of the topic. 
+                The blue bars show the overall frequency of each word in the corpus, if no topic is selected, the blue bars display the most frequently used words. 
+                The red bars give the estimated number of times a given term was generated by a given topic. 
+                The further the bubbles are away for each other, the more different they are.
+            </p>
+            <p>
+                Based on the results, similar words appear on different topics, even for the good and bad reviews. 
+                The analysis can be biased by the person interpreting the outputs, since it is hard to extract the topics based on the group of words. 
+                This methodology would be only recommended for a superficial analysis. 
             </p>
     </div>
     <hr>
