@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group 1 Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+        <!-- plotly src code cdn -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- pyLDAvis stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/bmabey/pyLDAvis@3.3.1/pyLDAvis/js/ldavis.v1.0.0.css" />
+    <link rel="stylesheet" type="text/css" href="deployment/css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- <nav class="navbar navbar-dark bg-dark"> -->
+            <!-- <nav class="navbar navbar-dark bg-dark navbar-expand-sm"> -->
+            <!-- <a class="navbar-brand" href="index.html">Viz Homepage</a> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#index-new.html"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <!-- took out "home" text - look to force refresh on home click -->
+                    <a class="nav-link active" href="#"> <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#AA">Apriori Analysis</a>
+                    <a class="nav-link" href="#SA">Segmentation Analysis</a>
+                    <a class="nav-link" href="#TA">Topic Analysis</a>
+        </nav>
+    </div>
+    <div class="jumbotron jumbotron-fluid">
+        <h1 class="display-4";>Analyzing Consumer Behavior</h1>
+    </div>
+    <!-- test altenerate section heading -->
+    <div class="section-head">
+        <h2 id="altintro">Introduction</h2>
+            <p>Introduction
+                This page contains summary results and visualizations of our study into consumer behavior. 
+                In order to gain insight into how big data can offer ecommerce companies greater opportunity to drive sales and revenue, 
+                we leveraged machine learning algorithms to analyze Amazon customer data.<br>
+                Our research had 3 goals:
+                <ol>
+                    <li>Develop a list of items frequently bought together</li>
+                    <li>Create customer segments based on product categories purchased</li>
+                    <li>Build a model to identify main topics included in the customer reviews of a product</li>
+                </ol> 
+            </p>
+    </div>
+    <hr class="section-break">
+    <div class="section-head">
+        <h2 id="AA">Apriori Analysis</h2>
+    </div>
+    <hr>
+        <p>
+            The Apriori algorithm is used for mining frequent item sets and relevant association rules from relational databases. 
+            The parameters “support” and “confidence” are utilized, support are the items’ frequency of occurrence and confidence is a conditional probability. 
+            The goal of the analysis is to identify items bought together and show them in the ecommerce website to increase cross sell and sales.
+        </p>
+    <hr>
+    <div class="container-fluid">
+        <div class="row";>
+            <div class="col-md-4">
+                <img src="deployment/apriori/apriori-key-v2.png" class="img-fluid" alt="apriori-graphic-legend">
+            </div>
+            <div class="col-md-6">
+                <img src="deployment/apriori/apriori-network-graph-v6.png" class="img-fluid" alt="apriori-graphic">
+            </div>
+        </div>
+    </div>
+    <!-- <hr class="section-break">
+    <div class="section-head">
+        <h2 id="a-a">Apriori Image Size Test</h2>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row";>
+            <div class="col-md-5">
+                <img src="deployment/apriori/apriori-key-v2.png" class="img-fluid" alt="apriori-graphic-legend">
+            </div>
+            <div class="col-md-6">
+                <img src="deployment/apriori/apriori-network-graph-v6.png" class="img-fluid" alt="apriori-graphic">
+            </div>
+        </div>
+    </div> -->
+    <hr>
+    <div class="container-fluid">
+        <div class="row";>
+            <div class="col-md-4">
+                <h4>Item Association by Segment</h4>
+            </div>
+            <div class="col-md-8">
+                
+                <p>
+                    In the table below, the top 2 results of each product category are shown. 
+                    Only music and videos had a confidence higher than 60%, but since the only downside is showing recommendations that a consumer might not 
+                    have interest on and the upside is increased sales, the risk is low of showing results with lower confidence.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <form class="button-form">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Segment
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Apparel</a>
+                            <a class="dropdown-item" href="#">Furniture</a>
+                            <a class="dropdown-item" href="#">Music</a>
+                            <a class="dropdown-item" href="#">Office Products</a>
+                            <a class="dropdown-item" href="#">Personal Care Appliances</a>
+                            <a class="dropdown-item" href="#">Video Games</a>
+                            <a class="dropdown-item" href="#">Videos</a>
+                            <a class="dropdown-item" href="#">Watches</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead style="color: #000000">
+                        <tr>
+                            <th>Segment</th>
+                            <th>Antecedent IDs</th>
+                            <th>Antecedent Names</th>
+                            <th>Consequent IDs</th>
+                            <th>Consequent Names</th>
+                            <th>Confidence</th>
+                        </tr>
+                    </thead>
+                    <tbody style="color: #000000"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <hr class="section-break">
+    <div class="section-head">
+        <h2 id="SA">Segmentation Analysis</h2>
+            <p>
+                Based on data of eight different product categories; apparel, furniture, music, watches, personal care, office products, video and video games; 
+                the data was consolidated based on the product quantities bought from each segment by customer. The K-means cluster analysis was the machine learning used, 
+                since it is an unsupervised model that groups data into clusters, or in this case, customer segments.
+            </p>
+            <p>
+                As visualized below, five customers segments were identified:
+                    <ol>
+                        <li>Cluster 0: apparel products,</li>
+                        <li>Cluster 1: personal care appliances</li>
+                        <li>Cluster 2: furniture</li>
+                        <li>Cluster 3: office products</li>
+                        <li>Cluster 4: multi-category</li>
+                    </ol>
+                Based on the results of this segmentation, better marketing campaigns can be targeted for single-category
+            </p>
+    </div>
+    <div class="container-fluid">
+        <div class="row";>
+            <div class="col-md-12">
+                <!-- plotly viz goes here -->
+                <div id="kmeans-chart"></div>
+            </div>
+        </div>
+    </div>
+    <hr class="section-break">
+    <div class="section-head">
+        <h2 id="TA">Topic Analysis</h2>
+            <p>
+                For this analysis one specific product was selected, Product ID B000M0MJU2, an air mattress. 
+                The Latent Dirichlet Allocation (LDA) machine learning model was used to identify topics with the customer reviews. 
+                To better interpret the data, the analysis was split into bad (1-star) and good (5-stars) reviews.
+            </p>
+            <p>
+                The bubble charts below represent the output of the analysis, each bubble represents a different topic, the larger the bubble, 
+                the higher percentage of the number of reviews in the corpus of the topic. 
+                The blue bars show the overall frequency of each word in the corpus, if no topic is selected, the blue bars display the most frequently used words. 
+                The red bars give the estimated number of times a given term was generated by a given topic. 
+                The further the bubbles are away for each other, the more different they are.
+            </p>
+            <p>
+                Based on the results, similar words appear on different topics, even for the good and bad reviews. 
+                The analysis can be biased by the person interpreting the outputs, since it is hard to extract the topics based on the group of words. 
+                This methodology would be only recommended for a superficial analysis. 
+            </p>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h3>5 Star Reviews</h3>
+            <img id="cloud" src="deployment/topic-analysis/5_star_word_cloud_white-v3.png" class="img-fluid" alt="5-star-world-cloud">
+        </div>
+    </div>
+    <div class="container-fluid" id=special-container>
+        <div class="col-md-12">
+            <h3>5 Star LDA</h3>
+            <div id="five_star_LDA"></div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="col-md-12">
+            <h3>1 Star Reviews</h3>
+            <img src="deployment/topic-analysis/1_star_word_cloud_white-v3.png" class="img-fluid" alt="1-star-world-cloud">
+        </div>
+    </div>
+    <div class="container-fluid" id=special-container>
+        <div class="col-md-12">
+            <h3>1 Star LDA</h3>
+            <div id="one_star_LDA"></div>
+        </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <!-- apriori table src paths -->
+    <script src="deployment/apriori/apriori_table_data.js"></script>
+    <script src="deployment/apriori/apriori_results_table.js"></script>
+    <!-- segment analysis src paths -->
+    <script src=deployment/segment-analysis/kmeans-data.json></script>
+    <script src=deployment/segment-analysis/kmeans-chart.js></script>
+    <!-- topic analysis source paths -->
+    <script src="deployment/topic-analysis/chart.js"></script>
+    <script src="deployment/topic-analysis/data.js"></script>
+</body>
