@@ -1,6 +1,6 @@
 # Analyzing Ecommerce Consumer Behavior through Amazon Reviews
 
-## Presentation (15 points)
+## Presentation
 
 [Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
 
