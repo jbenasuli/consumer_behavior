@@ -1,5 +1,5 @@
-  body {background-color: rgb(245, 249, 252);
-
+  body {
+    background-color: rgb(245, 249, 252);
   }  
   
   .jumbotron {
@@ -68,16 +68,3 @@
     padding: 0px;
 }
 
-
-
-
-/* 
-#secondJBox {
-  width:100%;
-  height: 50px;
-  background-color:#f1eade;
-  padding: 15px;
-  margin:0px;
-  opacity: 0.7;
-  text-align: center;
-} */

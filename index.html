@@ -18,9 +18,6 @@
 
 <body>
     <div class="wrapper">
-        <!-- <nav class="navbar navbar-dark bg-dark"> -->
-            <!-- <nav class="navbar navbar-dark bg-dark navbar-expand-sm"> -->
-            <!-- <a class="navbar-brand" href="index.html">Viz Homepage</a> -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#index.html"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +25,7 @@
             </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                    <!-- took out "home" text - look to force refresh on home click -->
+                    <!-- took out "home" text -->
                     <a class="nav-link active" href="#"> <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#AA">Apriori Analysis</a>
                     <a class="nav-link" href="#SA">Segmentation Analysis</a>
@@ -43,7 +40,7 @@
     <!-- test altenerate section heading -->
     <div class="section-head">
         <h2 id="altintro">Introduction</h2>
-            <p>Introduction
+            <p>
                 This page contains summary results and visualizations of our study into consumer behavior. 
                 In order to gain insight into how big data can offer ecommerce companies greater opportunity to drive sales and revenue, 
                 we leveraged machine learning algorithms to analyze Amazon customer data.<br>
@@ -58,13 +55,13 @@
     <hr class="section-break">
     <div class="section-head">
         <h2 id="AA">Apriori Analysis</h2>
-    </div>
     <hr>
         <p>
             The Apriori algorithm is used for mining frequent item sets and relevant association rules from relational databases. 
             The parameters “support” and “confidence” are utilized, support are the items’ frequency of occurrence and confidence is a conditional probability. 
             The goal of the analysis is to identify items bought together and show them in the ecommerce website to increase cross sell and sales.
         </p>
+    </div>
     <hr>
     <div class="container-fluid">
         <div class="row";>
@@ -216,7 +213,7 @@
     <div class="container-fluid">
         <div class="col-md-12">
             <h3>1 Star Reviews</h3>
-            <img src="deployment/topic-analysis/1_star_word_cloud_white-v3.png" class="img-fluid" alt="1-star-world-cloud">
+            <img id="cloud" src="deployment/topic-analysis/1_star_word_cloud_white-v3.png" class="img-fluid" alt="1-star-world-cloud">
         </div>
     </div>
     <div class="container-fluid" id=special-container>
