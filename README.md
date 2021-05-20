@@ -8,22 +8,18 @@
 
 ### Background
 
-- Data analysis is key for strategic and well-informed decision making
-- Big data allows e-commerce businesses to understand customers better through customer behavior analysis
-- Helps target specific customers segments to upsell products, increase conversion rates and grows sales
-- Better customer segmentation to improve targeted marketing campaigns and increase sales
-- Product reviews are a great source of customer feedback and is one of the main drivers for conversion rates, developing an automated way to process them can help drive product enhancements and accelerate decision making
-
-### Source data
-
-- All analysis is conducted using publicly available Amazon customer review data
-- Reviews from a number of product categories were selected from the list of available [US Reviews Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
+The goal of the project is to investigate how big data and machine learning can help ecommerce companies drive growth and improvements.
 
 ### Research Questions
 
 - Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
 - Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
 - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
+
+### Source data
+
+- All analysis is conducted using publicly available Amazon customer review data
+- Reviews from a number of product categories were selected from the list of available [US Reviews Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 
 ## Data & Technologies
 
@@ -33,6 +29,8 @@
 - JS
 - HTML
 - SQL
+
+A full list of requirements can be found in the [requirments.txt](requirements.txt) document
 
 ### Data Exploration
 
@@ -53,13 +51,11 @@
 - Question #3 is evaluated using Natural Language Processing [Topic Analysis](https://github.com/jbenasuli/final_project/blob/main/Topic_Analysis-Airmattress.ipynb)
 - For more information on the ML models used in the project, see [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
 
-A full list of requirements can be found in the [requirments.txt](link-to-file) document
-
 ## Analysis and Insights
 
 ### Results Summary
 
-- [Group 1 Analysis Summary](https://github.com/jbenasuli/final_project/blob/main/Final_Project_Group1_Analysis_Summary.pdf)
+- Group 1 Analysis Summary
 
 ### Results Vizulization
 
