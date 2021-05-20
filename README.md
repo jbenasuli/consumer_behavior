@@ -8,7 +8,7 @@
 
 ### Background
 
-The goal of the project is to investigate how big data and machine learning can help ecommerce companies drive growth and improvements.
+This page contains summary results and visualizations of our study into consumer behavior. In order to gain insight into how big data can offer ecommerce companies greater opportunity to drive sales and revenue, we leveraged machine learning algorithms to analyze Amazon customer data.
 
 ### Research Questions
 
