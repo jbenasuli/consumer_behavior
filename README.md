@@ -2,7 +2,7 @@
 
 ## Presentation
 
-[Link to presentation](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
+[Presentation PDF](Group1_EcommConsumerBehavior.pdf)
 
 ## Overview
 
@@ -12,8 +12,8 @@ This page contains summary results and visualizations of our study into consumer
 
 ### Research Questions
 
-- Question #1: Can we predict which products a customer will most likely purchase together within various product segments?
-- Question #2: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
+- Question #1: Can we identify customer segments based on the purchased product categories to better target marketing campaigns?
+- Question #2: Can we identify which products a customer will most likely purchase together?
 - Question #3: Can we extract key topics within product reviews to help companies analyze and interpret customer feedback?
 
 ### Source data
@@ -55,17 +55,17 @@ A full list of requirements can be found in the [requirments.txt](requirements.t
 
 ### Results Summary
 
-Apriori Analysis
-
-- Higher confidence in same product category instead of various categories (as per data exploration)
-- Videos and music categories are the only categories with higher confidence outputs (> 60%)
-- Low risk of showing product recommendations with low confidence level … only impact is UX in website
-
 K-Means Cluster Analysis
 
 - 44% of customers buying products from multi-categories, largest segment
 - Cluster 2 (furniture): priority for marketing campaign since there are current customers from Cluster 4 that buys furniture and other products
 - Create additional campaigns to cluster 0, 1 and 3 … give discount in other product categories to incentivize product mix and sales
+
+Apriori Analysis
+
+- Higher confidence in same product category instead of various categories (as per data exploration)
+- Videos and music categories are the only categories with higher confidence outputs (> 60%)
+- Low risk of showing product recommendations with low confidence level … only impact is UX in website
 
 Topic Analysis
 
@@ -74,21 +74,23 @@ Topic Analysis
 - Hard to identify different topics, similar words and feedback, recommended only for a superficial analysis
 - Need to improve corpus to combine words for more accurate analysis
 
-### Results Vizulization
+### Dashboard and Presentation
 
 [Project Dashboard](https://jbenasuli.github.io/consumer_behavior/)
 
+[Project Google Slides](https://docs.google.com/presentation/d/1BNm6gF_iD4guTDOlRPsiFmyAij_SqHRqjMEp_T4HXd8/edit)
+
 ### Proposal for Further Study
-
-Apriori Analysis
-
-- Need more processing power, since it limited the number of products in analysis
-- Used customer reviews as a proxy to customer purchases, for next analysis it will be good to access real sales data
 
 K-Means Cluster Analysis
 
 - Used customer reviews as a proxy to customer purchases, for next analysis it will be good to access real sales data
 - Create A/B testing on website within customer segments to see if targeted marketing campaigns based on K-means customer segmentation can increase sales
+
+Apriori Analysis
+
+- Need more processing power, since it limited the number of products in analysis
+- Used customer reviews as a proxy to customer purchases, for next analysis it will be good to access real sales data
 
 Topic Analysis
 
