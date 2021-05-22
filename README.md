@@ -44,12 +44,21 @@ A full list of requirements can be found in the [requirments.txt](requirements.t
 
 ### Machine Learning Models
 
-- Question #1 is evaluated using Apriori Algorithm Association Analysis
+- Question #1 is evaluated using Unsupervised Learning [K-Means Cluster Analysis](https://github.com/jbenasuli/consumer_behavior/blob/main/KMeans-Customer_Segmentation.ipynb)
+- Question #2 is evaluated using Apriori Algorithm Association Analysis
   - The analysis for Apparel, Furniture, Music and Office Products is contained in [this notebook](https://github.com/jbenasuli/consumer_behavior/blob/main/Apriori-Apparel_Furniture_Music_Office.ipynb)
   - The analysis for Personal Care Applicances, Video Games, Videos and Watches is contained in [this notebook](https://github.com/jbenasuli/consumer_behavior/blob/main/Apriori-PersonalCare_VideoGames_Videos_Watches.ipynb)
-- Question #2 is evaluated using Unsupervised Learning [K-Means Cluster Analysis](https://github.com/jbenasuli/consumer_behavior/blob/main/KMeans-Customer_Segmentation.ipynb)
 - Question #3 is evaluated using Natural Language Processing [Topic Analysis](https://github.com/jbenasuli/consumer_behavior/blob/main/Topic_Analysis-Airmattress.ipynb)
-- For more information on the ML models used in the project, see [ML Models document](https://docs.google.com/document/d/1K7xTmlPEwLLiv--TL-xZdt9zddprN_vzMdLysG-BxtU/edit?usp=sharing)
+- For more information about key packages used in the project's ML models, refer to repositories listed below:
+  - K-Means Analysis
+    - [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+    - [hvPlot](https://github.com/holoviz/hvplot)
+  - Apriori Analysis
+    - [MLxtend](https://github.com/rasbt/mlxtend)
+  - Topic Analysis
+    - [NLTK](https://github.com/nltk/nltk)
+    - [Spacy](https://github.com/explosion/spaCy)
+    - [pyLDAvis](https://github.com/bmabey/pyLDAvis)
 
 ## Analysis and Insights
 
