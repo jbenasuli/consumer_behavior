@@ -80,7 +80,6 @@
                 <h4>Item Association by Segment</h4>
             </div>
             <div class="col-md-8">
-                
                 <p>
                     In the table below, the top 2 results of each product category are shown. 
                     Only music and videos had a confidence higher than 60%, but since the only downside is showing recommendations that a consumer might not 
@@ -132,6 +131,25 @@
             </div>
         </div>
     </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row";>
+            <div class="col-md-4">
+                <p>
+                    <ul>
+                        <li>The histogram depicts the frequency of Apriori associations by itemsets</li>
+                        <li>Highest number of instances are for 3 product itemsets with about 5,909 associations</li>
+                        <li>Lowest number of associations are 8 product itemsets with only 9 associations</li>
+                        <li>Total number of recommendations the Apriori analysis gathered was 23,590</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <img src="deployment/apriori/apriori-frequency.png" 
+                class="img-fluid" alt="apriori-frequency">
+            </div>
+        </div>
+    </div>
     <hr class="section-break">
     <div class="section-head">
         <h2 id="SA">Segmentation Analysis</h2>
@@ -152,18 +170,28 @@
     <hr>
     <div class="container-fluid">
         <div class="row";>
-            <div class="col-md-6">
+            <div class="col-md-4">
+                <img src="deployment/segment-analysis/clusters-v3-large.png" class="img-fluid" alt="clusters-v1">
+            </div>
+            <div class="col-md-4">
                 <h4>Results:</h4>
                     <p>
-                        <ol>
-                            <li>Insight 1: apparel products,</li>
-                            <li>Insight 2: personal care appliances</li>
-                            <li>Insight 3: furniture</li>
-                        </ol>
+                        <ul>
+                            <li>Cluster 0: Apparel</li>
+                            <li>Cluster 1: Personal Care Appliances</li>
+                            <li>Cluster 2: Furniture</li>
+                            <li>Cluster 3: Office Products</li>
+                            <li>Cluster 4: Multi-Category</li>
+                        </ul>
                     </p>
-            </div>
-            <div class="col-md-3">
-                <img src="deployment/segment-analysis/clusters-v2.png" class="img-fluid" alt="clusters-v1">
+                    <h4>Insights:</h4>
+                    <p>
+                        <ul>
+                            <li>The largest segment is Cluster 4, Multi-Category, with 44% of customers buying products from multiple categories</li>
+                            <li>Cluster 2 (furniture) is a priority to target in future marketing campaigns looking to broaden purchasing categories of existing customers, since there are current furniture buyers represented in Cluster 4, the Multi-Category segment</li>
+                            <li>Create additional campaigns targeting clusters 0, 1 and 3, by giving discounts in other product categories to incentivize product mix and sales</li>
+                        </ul>
+                    </p>
             </div>
         </div>
     </div>
@@ -183,9 +211,12 @@
                 The further the bubbles are away for each other, the more different they are.
             </p>
             <p>
-                Based on the results, similar words appear on different topics, even for the good and bad reviews. 
-                The analysis can be biased by the person interpreting the outputs, since it is hard to extract the topics based on the group of words. 
-                This methodology would be only recommended for a superficial analysis. 
+                <ul>
+                    <li>Similar words between topics for good and bad reviews with different connotation</li>
+                    <li>Analysis can be biased by person interpreting the outputs, hard to extract meaning of topics</li>
+                    <li>Hard to identify different topics, similar words and feedback, recommended only for a superficial analysis</li>
+                    <li>Need to improve corpus to combine words for more accurate analysis</li>
+                </ul>
             </p>
     </div>
     <hr>
