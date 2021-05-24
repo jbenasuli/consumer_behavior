@@ -8,7 +8,7 @@
 
 ### Background
 
-This page contains summary results and visualizations of our study into consumer behavior. In order to gain insight into how big data can offer ecommerce companies greater opportunity to drive sales and revenue, we leveraged machine learning algorithms to analyze Amazon customer data.
+This page contains a summary of our study into consumer behavior. In order to gain insight into how big data can offer ecommerce companies greater opportunity to drive sales and revenue, we leveraged machine learning algorithms to analyze Amazon customer data.
 
 ### Research Questions
 
